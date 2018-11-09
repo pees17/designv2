@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,26 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
+
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
-Om
+Om denna webbplats
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+[FIGURE src=image/web-2643093_640.png?w=200 class="right"]
 
-Skriv några kloka ord om kursen?
+Denna webbplats är byggd i HTML, CSS och med PHP, som en del i kursen [design (v2)](https://dbwebb.se/kurser/design-v2). Kursen syftar till en orientering inom områden design och användbarhet, specifikt för tillämpningsområdet webb.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Kursen har tekniken som utgångspunkt, där olika tekniker introduceras och används för att underlätta webbdesign och användbarhet för webbplatsen med syftet att skapa en korrekt och användarvänlig webbplats.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+Kursen ingår i kurspaketet [Webbprogrammering och Databaser](https://www.bth.se/kurspaket/KP653/20182/) vid Blekinge Tekniska Högskola.
