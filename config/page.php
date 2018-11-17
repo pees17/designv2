@@ -20,7 +20,7 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 // "css/dbwebb-se.min.css",
-                "css/kmom01.css",
+                "css/kmom02.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -35,8 +35,9 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/theme/leaf_256x256.png",
-                "siteLogoAlt"   => "Löv",
+                "siteLogo"      => "image/theme/web-256.png",
+                // "siteLogo"      => "image/theme/leaf_256x256.png",
+                "siteLogoAlt"   => "Webdesign logo",
             ],
         ],
         [
@@ -45,8 +46,9 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "design",
-                "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
-                "siteLogoTextIconAlt" => "Löv-bild",
+                "siteLogoTextIcon" => "image/theme/web-60.png",
+                // "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
+                "siteLogoTextIconAlt" => "Webdesign logo",
             ],
         ],
         [

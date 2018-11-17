@@ -1,0 +1,125 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+// Site logo
+ @media screen and (max-width: 1700px) {
+     .site-logo {
+         width: 150px;
+     }
+ }
+ @media screen and (max-width: 1500px) {
+     .site-logo {
+         display: none;
+     }
+
+     .site-logo-text-icon {
+         display: inline-block;
+     }
+ }
+
+// Main menu
+ @media screen and (max-width: 1200px) {
+    .rm-navbar ul.rm-desktop li a {
+        padding: 1em 0.5em;
+    }
+ }
+@media screen and (max-width: 1000px) {
+    .rm-navbar ul.rm-desktop li a {
+        padding: 1em 0.2em;
+    }
+    .region-header-col-1
+    {
+        width: 24%;
+    }
+    .region-header-col-2
+    {
+        width: 69%;
+    }
+    .region-header-col-3
+    {
+        width: 7%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .region-header-col-1
+    {
+        width: 90%;
+    }
+    .region-header-col-2
+    {
+        display: none;
+    }
+    .region-header-col-3
+    {
+        width: 10%;
+    }
+}
+
+// Small screen menu
+@media screen and (min-width: 801px) {
+    .rm-navbar {
+        ul {
+            &.rm-small {
+                display: none;
+            }
+        }
+    }
+}
+
+// Main
+@media screen and (max-width: 800px) {
+    .region-main {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .region-main {
+        width: 98%;
+        margin: 0 auto;
+
+        .article figure.figure {
+            float: none;
+            margin: 0;
+        }
+    }
+    .byline {
+        width: 100%;
+    }
+    .region-main.has-sidebar {
+        width: 98%;
+        float: none;
+
+        &.has-sidebar-right,
+        &.has-sidebar-left {
+            margin: 0 auto;
+        }
+    }
+    .region-sidebar-right,
+    .region-sidebar-left {
+        float: none;
+        width: 98%;
+        margin: 0 auto;
+    }
+    .inner-wrap.inner-wrap-main {
+        min-height: 0em;
+    }
+}
+
+// Footer
+@media screen and (max-width: 650px) {
+    .footer-column {
+        float: none;
+        width: 100%;
+    }
+    .footer-column-1 {
+        border-right: none;
+        border-bottom: 1px solid @borderFooterColor;
+        padding-left: 1em;
+    }
+    .footer-column-2 {
+        border-right: none;
+        border-bottom: 1px solid @borderFooterColor;
+    }
+}
