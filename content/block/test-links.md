@@ -1,1 +1,5 @@
-<p><strong>Per-Olof Eriksson</strong> studerar Webbprogrammering och Databaser vid Blekinge Tekniska Högskola. Studierna bedrivs på distans från hemmet i Sollentuna eller i Spanien.</p>
+#### Länkar Markdown
+
+* [Daring Fareball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
+* [PHP Markdown](https://packagist.org/packages/michelf/php-markdown)
+* [PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)

@@ -20,7 +20,7 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 // "css/dbwebb-se.min.css",
-                "css/kmom03.css",
+                "css/kmom03.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -46,7 +46,7 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "design",
-                "siteLogoTextIcon" => "image/theme/web-60.png",
+                "siteLogoTextIcon" => "image/theme/web-55.png",
                 // "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
                 "siteLogoTextIconAlt" => "Webdesign logo",
             ],

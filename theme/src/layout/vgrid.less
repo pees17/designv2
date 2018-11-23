@@ -12,6 +12,12 @@
 * {
     box-sizing: border-box;
 }
+
+ul {
+    list-style: none;
+	padding: 0;
+}
+
 .wrap-all {
     overflow-x: hidden;
 }
@@ -23,6 +29,9 @@
     }
     &.outer-wrap-flash {
         padding: 0;
+    }
+    &.outer-wrap-main {
+        margin-bottom: 1.5em;
     }
 }
 
@@ -42,7 +51,6 @@
 
 .inner-wrap-main {
     min-height: 30em;
-    padding-bottom: 2em;
 }
 
 .inner-wrap-header {
@@ -69,7 +77,7 @@
 .site-logo-text {
     display: inline-block;
     line-height: 1;
-    font-size: 3em;
+    font-size: 48px;
 }
 
 .site-logo-text a {
@@ -90,13 +98,11 @@
 .rm-navbar {
     font-size: 1.5em;
     line-height: 0;
-    list-style: none;
 
     ul {
         &.rm-desktop
         {
             text-align: center;
-            padding: 0;
             margin: 0;
 
             li {
@@ -106,7 +112,7 @@
                  display: none;
                 }
                 a {
-                 padding: 1em 0.6em;
+                 padding: 1em;
                 }
                 ul {
                     background-color: white;
@@ -117,7 +123,7 @@
         {
             font-size: 1.5em;
             display: block;
-            margin-top: -4px;
+            margin-top: -10px;
         }
         &.rm-mobile
         {
@@ -161,36 +167,35 @@
 // Flash
 .region-flash {
     #desinax-vgrid.column(@columns);
+    img {
+        float: left;
+    }
 }
 
 // Breadcrum
 .region-breadcrumb {
     #desinax-vgrid.column(@columns);
+    margin-top: 0.5em;
 
     .breadcrumb-list {
-        ul {
-            padding: 0;
-            list-style: none;
+        li {
+            display: inline;
 
-            li {
-                display: inline;
+            &::after {
+                content: " » ";
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
 
-                &::after {
-                    content: " » ";
-                }
-                a {
-                    text-decoration: none;
-                    color: inherit;
-
-                    &:hover {
-                        text-decoration: underline;
-                    }
+                &:hover {
+                    text-decoration: underline;
                 }
             }
         }
     }
 }
- // Main
+// Main
 .region-main {
     #desinax-vgrid.column(@columns * 3 / 4);
     #desinax-vgrid.push(2);
@@ -231,9 +236,9 @@
 
 .byline {
     border-top: 1px solid @borderBylineColor;
-    padding: 1em;
-    padding-top: 0.5em;
+    padding: 0.5em 1em 0 1em;
     width: 75%;
+    .clearfix;
 }
 
 .next-previous {
@@ -255,26 +260,21 @@
 }
 
 .toc {
-    ul {
-        list-style: none;
-        padding: 0;
+    li {
+        a {
+            text-decoration: none;
+            color: inherit;
 
-        li {
-            a {
-                text-decoration: none;
-                color: inherit;
-
-                &:hover {
-                    text-decoration: underline;
-                }
+            &:hover {
+                text-decoration: underline;
             }
-            &.selected {
-                font-style: italic;
-            }
-            &.section-header {
-                font-weight: bold;
-                margin-top: 1em;
-            }
+        }
+        &.selected {
+            font-style: italic;
+        }
+        &.section-header {
+            font-weight: bold;
+            margin-top: 1.5em;
         }
     }
 }
@@ -319,8 +319,8 @@ figure.figure figcaption p {
 }
 
 .footer-column-x {
-    min-height: 16em;
-    padding: 0 1em 1em;
+    min-height: 15em;
+    padding: 0 1em;
 
     a {
         color: inherit;
@@ -336,10 +336,7 @@ figure.figure figcaption p {
 }
 
 .footer-column-3 {
-    p {
-        margin-bottom: 0;   // Testa ul i stället
-        margin-top: 0.2em;
-    }
+
 }
 
 .site-footer {
