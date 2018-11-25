@@ -19,26 +19,35 @@
         font-size: 44px;
         padding-bottom: 4px;
     }
+    .rm-navbar ul.rm-desktop li a {
+        padding: 1em 0.8em;
+    }
+}
+@media screen and (max-width: 300px) {
+    .site-logo-text {
+        visibility: hidden;
+    }
 }
 
 // Main menu
 @media screen and (max-width: 1400px) {
     .rm-navbar ul.rm-desktop li a {
-        padding: 1em 0.6em;
+        padding: 1em 0.4em;
     }
 }
 @media screen and (max-width: 1200px) {
     .rm-navbar ul.rm-desktop li a {
-        padding: 1em 0.35em;
+        padding: 1em 0.3em;
+        letter-spacing: -0.025em;
     }
     .region-header-col-1 {
         #desinax-vgrid.column(6);
     }
     .region-header-col-3 {
-        #desinax-vgrid.column(3);
+        #desinax-vgrid.column(2);
     }
     .region-header-col-2 {
-        #desinax-vgrid.column(15);
+        #desinax-vgrid.column(16);
     }
 }
 @media screen and (max-width: 1000px) {
@@ -46,8 +55,8 @@
         text-align: left;
         li {
             a {
+                letter-spacing: -0.06em;
                 padding-left: 0;
-                padding-right: 0.35em;
             }
             &:last-of-type a {
                 padding-right: 0;

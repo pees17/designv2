@@ -4615,7 +4615,7 @@ body {
   padding: 0;
   color: #333;
   background-color: white;
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 Verdana, Geneva, sans-serif;
 }
 img {
   max-width: 100%;
@@ -4626,7 +4626,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4642,7 +4642,7 @@ h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
   font-weight: normal;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #888;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -4681,7 +4681,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #AAA;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4968,13 +4968,16 @@ ul {
 }
 .outer-wrap.outer-wrap-footer {
   background-color: #333;
-  color: #ddd;
+  color: #ccc;
 }
 .outer-wrap.outer-wrap-flash {
   padding: 0;
 }
 .outer-wrap.outer-wrap-main {
   margin-bottom: 1.5em;
+}
+.outer-wrap.outer-wrap-header {
+  margin-bottom: 4px;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5067,7 +5070,7 @@ ul {
   padding: 1em;
 }
 .rm-navbar ul.rm-desktop li ul {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .rm-navbar ul.rm-small {
   font-size: 1.5em;
@@ -5202,7 +5205,7 @@ ul {
   margin-right: 0.52083333%;
 }
 .byline {
-  border-top: 1px solid #999;
+  border-top: 1px solid #888;
   padding: 0.5em 1em 0 1em;
   width: 75%;
 }
@@ -5269,7 +5272,7 @@ figure.figure figcaption p {
   margin-right: 0.52083333%;
 }
 .footer-column-wrapper {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #888;
   margin-bottom: 24px;
 }
 .footer-column-wrapper::after {
@@ -5292,10 +5295,10 @@ figure.figure figcaption p {
   color: inherit;
 }
 .footer-column-1 {
-  border-right: 1px solid #999;
+  border-right: 1px solid #888;
 }
 .footer-column-2 {
-  border-right: 1px solid #999;
+  border-right: 1px solid #888;
 }
 .site-footer {
   text-align: center;
@@ -5323,15 +5326,24 @@ figure.figure figcaption p {
     font-size: 44px;
     padding-bottom: 4px;
   }
+  .rm-navbar ul.rm-desktop li a {
+    padding: 1em 0.8em;
+  }
+}
+@media screen and (max-width: 300px) {
+  .site-logo-text {
+    visibility: hidden;
+  }
 }
 @media screen and (max-width: 1400px) {
   .rm-navbar ul.rm-desktop li a {
-    padding: 1em 0.6em;
+    padding: 1em 0.4em;
   }
 }
 @media screen and (max-width: 1200px) {
   .rm-navbar ul.rm-desktop li a {
-    padding: 1em 0.35em;
+    padding: 1em 0.3em;
+    letter-spacing: -0.025em;
   }
   .region-header-col-1 {
     display: inline;
@@ -5343,14 +5355,14 @@ figure.figure figcaption p {
   .region-header-col-3 {
     display: inline;
     float: left;
-    width: 11.45833333%;
+    width: 7.29166667%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
   .region-header-col-2 {
     display: inline;
     float: left;
-    width: 61.45833333%;
+    width: 65.625%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
@@ -5360,8 +5372,8 @@ figure.figure figcaption p {
     text-align: left;
   }
   .rm-navbar ul.rm-desktop li a {
+    letter-spacing: -0.06em;
     padding-left: 0;
-    padding-right: 0.35em;
   }
   .rm-navbar ul.rm-desktop li:last-of-type a {
     padding-right: 0;
@@ -5559,3 +5571,6 @@ figure.figure figcaption p {
 /**
  * My own settings, not currently in their own module.
  */
+/**
+  * Typographic font families to choose from.
+  */
