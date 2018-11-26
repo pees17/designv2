@@ -5055,6 +5055,7 @@ ul {
 .rm-navbar {
   font-size: 1.5em;
   line-height: 0;
+  font-family: Verdana, Geneva, sans-serif;
 }
 .rm-navbar ul.rm-desktop {
   text-align: center;
@@ -5370,6 +5371,7 @@ figure.figure figcaption p {
 @media screen and (max-width: 1000px) {
   .rm-navbar ul.rm-desktop {
     text-align: left;
+    margin-left: -0.2em;
   }
   .rm-navbar ul.rm-desktop li a {
     letter-spacing: -0.06em;
@@ -5570,7 +5572,7 @@ figure.figure figcaption p {
 }
 /**
  * My own settings, not currently in their own module.
- */
+*/
 /**
-  * Typographic font families to choose from.
-  */
+ * Typographic font families to choose from.
+*/

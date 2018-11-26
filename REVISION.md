@@ -2,6 +2,11 @@ Revision history
 ==================
 
 
+v3.0.1 (2018-11-26)
+------------------------
+* Ready with kmom03.
+
+
 v3.0.0 (2018-11-25)
 ------------------------
 * Ready with kmom03 exercises. Report remaining.
