@@ -1,6 +1,6 @@
 ---
 ---
-Redovisningstexter
+Rapporter
 =========================
 
-Här är redovisningstexterna från samtliga kursmoment.
+Här är de olika rapporter som har gjorts under kursmomentet.

@@ -1,5 +1,6 @@
 #!/bin/bash
-set -x #echo on
+
+# set -x #echo on
 #
 # Makes a git add . and git commit -m[Text]
 #
