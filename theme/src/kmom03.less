@@ -51,8 +51,8 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
- // @import "base/base.less";
- @import "base/base_kmom03.less";
+// @import "base/base.less";
+@import "base/base_kmom03.less";
 
 /**
  * Import the vertical grid.
@@ -71,12 +71,18 @@
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
+ @import "layout/regions.less";     // To add style for ?regions
 // @import "layout/layout.less";
 // @import "layout/layout_kmom02.less";
+@import "module/site-logo.less";
+@import "module/navbars.less";
+@import "module/byline.less";
+@import "module/figure.less";
+@import "module/color-scheme.less";
 
 // @import "layout/responsive.less";
 @import "layout/responsive_kmom03.less";
-@import "layout/regions.less";     // To add style for ?regions
+
 
 /**
  * My own settings, not currently in their own module.

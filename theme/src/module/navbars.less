@@ -1,0 +1,73 @@
+/**
+ * Main navbar and responsive navbar.
+ */
+
+.rm-navbar {
+    font-size: 1.5em;
+    line-height: 0;
+    font-family: @fontFamilyNavbar;
+
+    ul {
+        &.rm-desktop
+        {
+            text-align: center;
+            margin: 0;
+
+            li {
+                display: inline-block;
+
+                .rm-submenu-button {
+                 display: none;
+                }
+                a {
+                 padding: 1em 0.9em;
+                }
+                ul {
+                    background-color: @bgColorRmSub;
+                    }
+                }
+        }
+        &.rm-small
+        {
+            font-size: 1.5em;
+            display: block;
+            margin-top: -10px;
+        }
+        &.rm-mobile
+        {
+            text-align: left;
+            background-color: @bgColorRmSmall;
+
+            li {
+                &:first-of-type {
+                    border-top: 1px solid @bgColorRmSmallHover;
+                }
+                box-shadow: none;
+                border-bottom: 1px solid @bgColorRmSmallHover;
+                .rm-submenu-button {
+                    padding: 24px;
+                    margin: 0;
+                    box-shadow: inherit;
+                    border-radius: 0;
+                    &:hover {
+                        background-color: @bgColorRmSmallSubHover;
+                    }
+                }
+                a:hover {
+                    background-color: @bgColorRmSmallHover;
+                }
+            }
+            .rm-show-submenu {
+                padding-left: 0;
+                li {
+                    &:hover {
+                        background-color: @bgColorRmSmallHover;
+                    }
+                    a {
+                        padding-left: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}

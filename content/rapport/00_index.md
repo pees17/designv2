@@ -3,4 +3,4 @@
 Rapporter
 =========================
 
-Här är de olika rapporter som har gjorts under kursmomentet.
+Här är de olika rapporter som har gjorts under kursen.

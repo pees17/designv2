@@ -59,6 +59,7 @@
  */
 @import "@desinax/vertical-grid/less/grid.less";
 
+@import "layout/vgrid.less";
 
 // // Default grid, change to fit your requirements.
 // @columnWidth:   30;
@@ -70,22 +71,26 @@
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
+ @import "layout/regions.less";     // To add style for ?regions
 // @import "layout/layout.less";
 // @import "layout/layout_kmom02.less";
-// @import "layout/vgrid.less";
-@import "layout/layout_kmom04.less";
+@import "module/site-logo.less";
+@import "module/navbars.less";
+@import "module/byline.less";
+@import "module/figure.less";
+@import "module/color-scheme.less";
 
 // @import "layout/responsive.less";
 // @import "layout/responsive_kmom03.less";
 @import "layout/responsive_kmom04.less";
-@import "layout/regions.less";     // To add style for ?regions
 
 /**
  * My own settings, not currently in their own module.
 */
 @colorH1BorderBottom: #888;
-@colorH4BorderBottom: #AAA;
-
+@colorH2BorderBottom: #AAA;
+@colorH3BorderBottom: #CCC;
+@colorH4BorderBottom: #DDD;
 
 // Adapt the typographic grid to my style
 // @fontFamilyHeadings: "serif";
