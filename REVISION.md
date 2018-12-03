@@ -1,6 +1,11 @@
 Revision history
 ==================
 
+v4.1.0 (2018-12-03)
+------------------------
+* Added report on webpages color schemes.
+
+
 v4.0.2 (2018-12-02)
 ------------------------
 * Added report page and fixed navbar.
