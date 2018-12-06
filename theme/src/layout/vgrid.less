@@ -56,8 +56,13 @@ ul {
     min-height: 30em;
 }
 
+
 .inner-wrap-header {
     #desinax-vgrid.grid(100%);
+}
+
+.inner-wrap-footer {
+    border-top: 1px solid @borderFooterColor;
 }
 
 // Header
@@ -171,7 +176,7 @@ ul {
             }
         }
         &.selected {
-            font-style: italic;
+            background-color: @bgColorListSelected;
         }
         &.section-header {
             font-weight: bold;
@@ -183,11 +188,15 @@ ul {
 // Footer
 .region-footer {
     #desinax-vgrid.column(@columns);
+
+    a {
+        color: inherit;
+    }
 }
 
 .footer-column-wrapper {
     border-bottom: 1px solid @borderFooterColor;
-    margin-bottom: 24px;
+    margin-bottom: 23px;
     .clearfix();
 }
 
@@ -198,10 +207,6 @@ ul {
 .footer-column-x {
     min-height: 15em;
     padding: 0 1em;
-
-    a {
-        color: inherit;
-    }
 }
 
 .footer-column-1,

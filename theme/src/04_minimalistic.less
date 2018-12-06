@@ -1,0 +1,67 @@
+/*!
+ * Stylesheet for the minimalistic theme.
+ *
+ * This stylesheet is for the minimalistic theme in kmom04.
+ */
+
+/*
+ * Theme:
+ * All fonts serif
+ * Color scheme: Achromatic
+ */
+
+// Import base theme
+@import "kmom04.less";
+
+// Region colors
+// @bgColorBody: white;
+// @colorBody: #333;
+
+@bgColorFooter: @bgColorBody;
+@colorFooter: @colorBody;
+
+// @bgColorRmSub: rgba(255, 255, 255, 0.6);
+//
+// @colorRmSmall: white;
+// @bgColorRmSmall: #333;
+// @bgColorRmSmallHover: lighten(@bgColorRmSmall, 15%);
+//
+// @bgColorRmSubMenuButton: lighten(@bgColorRmSmall, 10%);
+// @bgColorRmSubMenuButtonHover:lighten(@bgColorRmSmall, 25%);
+//
+// @bgColorListSelected: #eee;
+//
+// @borderBylineColor: #888;
+// @borderFooterColor: #888;
+
+// Heading border colors
+// @colorH1BorderBottom: #888;
+// @colorH2BorderBottom: #AAA;
+// @colorH3BorderBottom: #CCC;
+// @colorH4BorderBottom: #DDD;
+
+// Fonts
+@fontFamilyHeadings: "serif";
+@fontFamilyBody:     "serif";
+// @fontFamilyHeadings:  @fontFamilyCambria;
+// @fontFamilyBody:      @fontFamilyVerdana;
+@fontFamilyNavbar:    @fontFamilyBody;
+@fontFamilySiteLogo:  @fontFamilyBody;
+
+// a-tags styling
+.region-footer {
+// .toc li,
+// .next-previous,
+// .breadcrumb-list li {
+    a {
+        &:link {
+            color: blue;
+        }
+        &:visited {
+            color: purple;
+        }
+        &:active {
+            color: red;
+        }
+    }
+}

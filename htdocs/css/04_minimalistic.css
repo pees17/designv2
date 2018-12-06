@@ -1,7 +1,17 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for the minimalistic theme.
  *
- * This stylesheet is for the design course and kmom03 where we focus on grid, layout och typografi.
+ * This stylesheet is for the minimalistic theme in kmom04.
+ */
+/*
+ * Theme:
+ * All fonts serif
+ * Color scheme: Achromatic
+ */
+/*!
+ * Stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we focus on color.
  */
 /**
  * Import mixins.
@@ -4615,7 +4625,7 @@ body {
   padding: 0;
   color: #333;
   background-color: white;
-  font: 16px/1.5 Verdana, Geneva, sans-serif;
+  font: 16px/1.5 "serif";
 }
 img {
   max-width: 100%;
@@ -4626,7 +4636,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family: "serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4661,7 +4671,7 @@ h2 {
   line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #AAA;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4671,7 +4681,7 @@ h3 {
   line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #CCC;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4681,7 +4691,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #DDD;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4967,8 +4977,8 @@ ul {
   padding: 0 5px 0 4px;
 }
 .outer-wrap.outer-wrap-footer {
-  background-color: #333;
-  color: #ccc;
+  background-color: white;
+  color: #333;
 }
 .outer-wrap.outer-wrap-flash {
   padding: 0;
@@ -5242,7 +5252,7 @@ ul {
   left: 30px;
 }
 .site-logo-text {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "serif";
   display: inline-block;
   line-height: 1;
   font-size: 48px;
@@ -5264,7 +5274,7 @@ ul {
 .rm-navbar {
   font-size: 1.5em;
   line-height: 0;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "serif";
 }
 .rm-navbar ul.rm-desktop {
   text-align: center;
@@ -5443,24 +5453,52 @@ table.scheme.di td.color5 {
     font-size: 44px;
     padding-bottom: 4px;
   }
-  .rm-navbar ul.rm-desktop li a {
-    padding: 1em 0.8em;
-  }
 }
 @media screen and (max-width: 300px) {
   .site-logo-text {
     visibility: hidden;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
+  .region-header-col-1 {
+    display: inline;
+    float: left;
+    width: 19.79166667%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-header-col-3 {
+    display: inline;
+    float: left;
+    width: 11.45833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-header-col-2 {
+    display: inline;
+    float: left;
+    width: 65.625%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .rm-navbar ul.rm-desktop {
+    text-align: left;
+  }
   .rm-navbar ul.rm-desktop li a {
-    padding: 1em 0.4em;
+    padding-left: 0;
+    padding-right: 0.6em;
+  }
+  .rm-navbar ul.rm-desktop li:last-of-type a {
+    padding-right: 0;
   }
 }
 @media screen and (max-width: 1200px) {
+  .rm-navbar ul.rm-desktop {
+    margin-left: -0.2em;
+    letter-spacing: -0.015em;
+  }
   .rm-navbar ul.rm-desktop li a {
-    padding: 1em 0.3em;
-    letter-spacing: -0.025em;
+    padding-right: 0.3em;
   }
   .region-header-col-1 {
     display: inline;
@@ -5472,29 +5510,25 @@ table.scheme.di td.color5 {
   .region-header-col-3 {
     display: inline;
     float: left;
-    width: 7.29166667%;
+    width: 3.125%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
   .region-header-col-2 {
     display: inline;
     float: left;
-    width: 65.625%;
+    width: 69.79166667%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
 }
 @media screen and (max-width: 1000px) {
   .rm-navbar ul.rm-desktop {
-    text-align: left;
-    margin-left: -0.2em;
+    margin-left: -1.5em;
+    letter-spacing: -0.04em;
   }
   .rm-navbar ul.rm-desktop li a {
-    letter-spacing: -0.06em;
-    padding-left: 0;
-  }
-  .rm-navbar ul.rm-desktop li:last-of-type a {
-    padding-right: 0;
+    padding-right: 0.2em;
   }
   .region-header-col-1 {
     display: inline;
@@ -5518,7 +5552,7 @@ table.scheme.di td.color5 {
     margin-right: 0.52083333%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .region-header-col-1 {
     display: inline;
     float: left;
@@ -5544,7 +5578,7 @@ table.scheme.di td.color5 {
     display: none;
   }
 }
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 901px) {
   .rm-navbar ul.rm-small {
     display: none;
   }
@@ -5661,3 +5695,12 @@ table.scheme.di td.color5 {
 /**
  * Typographic font families to choose from.
 */
+.region-footer a:link {
+  color: blue;
+}
+.region-footer a:visited {
+  color: purple;
+}
+.region-footer a:active {
+  color: red;
+}
