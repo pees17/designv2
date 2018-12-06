@@ -36,6 +36,7 @@
         &.rm-mobile
         {
             text-align: left;
+            color: @colorRmSmall;
             background-color: @bgColorRmSmall;
 
             li {
@@ -45,12 +46,13 @@
                 box-shadow: none;
                 border-bottom: 1px solid @bgColorRmSmallHover;
                 .rm-submenu-button {
+                    background-color: @bgColorRmSubMenuButton;
                     padding: 24px;
                     margin: 0;
                     box-shadow: inherit;
                     border-radius: 0;
                     &:hover {
-                        background-color: @bgColorRmSmallSubHover;
+                        background-color: @bgColorRmSubMenuButtonHover;
                     }
                 }
                 a:hover {

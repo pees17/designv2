@@ -2,21 +2,26 @@
  * Base style to affect HTML elements on a general scale.
  */
 @bgColorHtml: black;
+
 @bgColorBody: white;
+@colorBody: #333;
+
 @bgColorFooter: #333;
+@colorFooter: #ccc;
 
 @bgColorRmSub: rgba(255, 255, 255, 0.6);
-@bgColorRmSmall: #333;
-@bgColorRmSmallHover: #666;
-@bgColorRmSmallSubHover: #888;
 
-@colorBody: #333;
-@colorFooter: #ccc;
+@colorRmSmall: white;
+@bgColorRmSmall: #333;
+@bgColorRmSmallHover: lighten(@bgColorRmSmall, 15%);
+
+@bgColorRmSubMenuButton: lighten(@bgColorRmSmall, 10%);
+@bgColorRmSubMenuButtonHover:lighten(@bgColorRmSmall, 25%);
 
 @borderBylineColor: #888;
 @borderFooterColor: #888;
 
-@fontFamilyNavbar:    @fontFamilyBody;
+@fontFamilyNavbar: @fontFamilyBody;
 
 html {
     overflow-y: scroll;

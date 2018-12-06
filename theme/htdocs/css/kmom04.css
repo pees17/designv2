@@ -5285,32 +5285,34 @@ ul {
 }
 .rm-navbar ul.rm-mobile {
   text-align: left;
+  color: white;
   background-color: #333;
 }
 .rm-navbar ul.rm-mobile li {
   box-shadow: none;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #595959;
 }
 .rm-navbar ul.rm-mobile li:first-of-type {
-  border-top: 1px solid #666;
+  border-top: 1px solid #595959;
 }
 .rm-navbar ul.rm-mobile li .rm-submenu-button {
+  background-color: #4d4d4d;
   padding: 24px;
   margin: 0;
   box-shadow: inherit;
   border-radius: 0;
 }
 .rm-navbar ul.rm-mobile li .rm-submenu-button:hover {
-  background-color: #888;
+  background-color: #737373;
 }
 .rm-navbar ul.rm-mobile li a:hover {
-  background-color: #666;
+  background-color: #595959;
 }
 .rm-navbar ul.rm-mobile .rm-show-submenu {
   padding-left: 0;
 }
 .rm-navbar ul.rm-mobile .rm-show-submenu li:hover {
-  background-color: #666;
+  background-color: #595959;
 }
 .rm-navbar ul.rm-mobile .rm-show-submenu li a {
   padding-left: 1.5em;
