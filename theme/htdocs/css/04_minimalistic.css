@@ -4987,7 +4987,8 @@ ul {
   margin-bottom: 1.5em;
 }
 .outer-wrap.outer-wrap-header {
-  margin-bottom: 4px;
+  background-color: inherit;
+  padding-bottom: 4px;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;

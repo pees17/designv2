@@ -1,12 +1,22 @@
 /*!
- * Stylesheet for the minimalistic theme.
+ * Stylesheet for the colorful theme.
  *
- * This stylesheet is for the minimalistic theme in kmom04.
+ * This stylesheet is for the colorful theme in kmom04.
  */
 /*
- * Theme:
- * All fonts serif
- * Color scheme: Achromatic
+ * Theme
+ * =====
+ *
+ * Fonts:
+ * Body, Navbar, Logo - @fontFamilyVerdana (sans-serif)
+ * Headings - @fontFamilyCambria (serif)
+ *
+ * Color scheme:
+ * Triadic with
+ * base color #5796CA
+ * secondary1 #FFF263
+ * secondary2 #F05D87
+ *
  */
 /*!
  * Stylesheet for design kmom04.
@@ -4624,8 +4634,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: white;
-  font: 16px/1.5 "serif";
+  background-color: #FFF9B7;
+  font: 16px/1.5 Verdana, Geneva, sans-serif;
 }
 img {
   max-width: 100%;
@@ -4636,7 +4646,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4652,7 +4662,7 @@ h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
   font-weight: normal;
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #E01650;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -4671,7 +4681,7 @@ h2 {
   line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #EA3D6E;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4681,7 +4691,7 @@ h3 {
   line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #F05D87;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4691,7 +4701,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #F684A4;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4977,8 +4987,8 @@ ul {
   padding: 0 5px 0 4px;
 }
 .outer-wrap.outer-wrap-footer {
-  background-color: white;
-  color: #333;
+  background-color: #1A64A1;
+  color: white;
 }
 .outer-wrap.outer-wrap-flash {
   padding: 0;
@@ -4987,7 +4997,7 @@ ul {
   margin-bottom: 1.5em;
 }
 .outer-wrap.outer-wrap-header {
-  background-color: inherit;
+  background-color: #FFF9B7;
   padding-bottom: 4px;
 }
 .vgrid .inner-wrap {
@@ -5022,7 +5032,7 @@ ul {
   max-width: 100%;
 }
 .inner-wrap-footer {
-  border-top: 1px solid #888;
+  border-top: 1px solid #1A64A1;
 }
 .region-header-col-1 {
   display: inline;
@@ -5166,7 +5176,7 @@ ul {
   text-decoration: underline;
 }
 .toc li.selected {
-  background-color: #eee;
+  background-color: #FBB4C9;
 }
 .toc li.section-header {
   font-weight: bold;
@@ -5183,7 +5193,7 @@ ul {
   color: inherit;
 }
 .footer-column-wrapper {
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid white;
   margin-bottom: 23px;
 }
 .footer-column-wrapper::after {
@@ -5204,7 +5214,7 @@ ul {
 }
 .footer-column-1,
 .footer-column-2 {
-  border-right: 1px solid #888;
+  border-right: 1px solid white;
 }
 .site-footer {
   text-align: center;
@@ -5253,7 +5263,7 @@ ul {
   left: 30px;
 }
 .site-logo-text {
-  font-family: "serif";
+  font-family: Verdana, Geneva, sans-serif;
   display: inline-block;
   line-height: 1;
   font-size: 48px;
@@ -5275,7 +5285,7 @@ ul {
 .rm-navbar {
   font-size: 1.5em;
   line-height: 0;
-  font-family: "serif";
+  font-family: Verdana, Geneva, sans-serif;
 }
 .rm-navbar ul.rm-desktop {
   text-align: center;
@@ -5300,7 +5310,7 @@ ul {
 }
 .rm-navbar ul.rm-mobile {
   text-align: left;
-  color: white;
+  color: #7EB3DE;
   background-color: #333;
 }
 .rm-navbar ul.rm-mobile li {
@@ -5336,7 +5346,7 @@ ul {
  * Byline.
  */
 .byline {
-  border-top: 1px solid #888;
+  border-top: 1px solid #E01650;
   padding: 0.5em 1em 0 1em;
   width: 75%;
 }
@@ -5696,12 +5706,23 @@ table.scheme.di td.color5 {
 /**
  * Typographic font families to choose from.
 */
-.region-footer a:link {
-  color: blue;
+/* As Hex codes, from Paletton */
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+.region-footer h4 {
+  border-bottom-color: white;
 }
-.region-footer a:visited {
-  color: purple;
+.region-footer a {
+  color: white;
 }
-.region-footer a:active {
-  color: red;
+.site-logo-text a {
+  color: #5591c7;
+}
+.rm-desktop li a:hover {
+  color: #5591c7;
+}
+.next-previous,
+.breadcrumb-list li {
+  color: #5591c7;
 }

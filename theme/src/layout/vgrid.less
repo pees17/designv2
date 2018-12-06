@@ -34,7 +34,8 @@ ul {
         margin-bottom: 1.5em;
     }
     &.outer-wrap-header {
-        margin-bottom: 4px;
+        background-color: @bgColorHeader;
+        padding-bottom: 4px;
     }
 }
 
@@ -62,7 +63,7 @@ ul {
 }
 
 .inner-wrap-footer {
-    border-top: 1px solid @borderFooterColor;
+    border-top: 1px solid @borderFooterTopColor;
 }
 
 // Header
@@ -195,7 +196,7 @@ ul {
 }
 
 .footer-column-wrapper {
-    border-bottom: 1px solid @borderFooterColor;
+    border-bottom: 1px solid @borderFooterBottomColor;
     margin-bottom: 23px;
     .clearfix();
 }
@@ -211,7 +212,7 @@ ul {
 
 .footer-column-1,
 .footer-column-2  {
-    border-right: 1px solid @borderFooterColor;
+    border-right: 1px solid @borderFooterBottomColor;
 }
 
 .site-footer {
