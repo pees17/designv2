@@ -1,6 +1,27 @@
 Revision history
 ==================
 
+v4.1.4 (2018-12-06)
+------------------------
+* Added a dark theme.
+
+
+v4.1.3 (2018-12-06)
+------------------------
+* Added a colerful theme.
+
+
+v4.1.2 (2018-12-06)
+------------------------
+* Added a minimalistic theme.
+
+
+v4.1.1 (2018-12-06)
+------------------------
+* Changing less files to have more variables.
+* Created a base theme.
+
+
 v4.1.0 (2018-12-03)
 ------------------------
 * Added report on webpages color schemes.

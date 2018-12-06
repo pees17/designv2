@@ -1,0 +1,100 @@
+/*!
+ * Stylesheet for the dark theme.
+ *
+ * This stylesheet is for the dark theme in kmom04.
+ */
+
+/*
+ * Theme
+ * =====
+ *
+ * Fonts:
+ * Body, Navbar, Logo - @fontFamilyVerdana (sans-serif)
+ * Headings - @fontFamilyCambria (serif)
+ *
+ * Color scheme:
+ * Triadic with
+ * base color #5796CA
+ * secondary1 #FFF263
+ * secondary2 #F05D87
+ *
+ */
+
+// Import base theme
+@import "kmom04.less";
+
+/* As Hex codes, from Paletton */
+
+@color-primary-0: #5591c7;	/* Main Primary color */
+@color-primary-1: #B1D4F0;
+@color-primary-2: #7EB3DE;
+@color-primary-3: #387CB4;
+@color-primary-4: #1A64A1;
+
+@color-secondary-1-0: #FFF263;	/* Main Secondary color (1) */
+@color-secondary-1-1: #FFF9B7;
+@color-secondary-1-2: #FFF589;
+@color-secondary-1-3: #FFEF42;
+@color-secondary-1-4: #F9E619;
+
+@color-secondary-2-0: #F05D87;	/* Main Secondary color (2) */
+@color-secondary-2-1: #FBB4C9;
+@color-secondary-2-2: #F684A4;
+@color-secondary-2-3: #EA3D6E;
+@color-secondary-2-4: #E01650;
+
+// Region colors
+@bgColorBody: black;
+@colorBody: @color-secondary-2-3;
+
+@bgColorFooter: black;
+@colorFooter: white;
+
+@bgColorHeader: @bgColorBody;
+
+
+@bgColorRmSub: rgba(255, 255, 255, 0.8);
+//
+@colorRmSmall: @color-secondary-2-4;
+@bgColorRmSmall: black;
+
+@bgColorListSelected: lighten(@bgColorBody, 20%);
+@borderBylineColor: @colorBody;
+
+@borderFooterTopColor: @bgColorFooter;
+@borderFooterBottomColor: @colorFooter;
+
+// Heading border colors
+@colorH1BorderBottom: @color-secondary-2-4;
+@colorH2BorderBottom: @color-secondary-2-3;
+@colorH3BorderBottom: @color-secondary-2-0;
+@colorH4BorderBottom: @color-secondary-2-2;
+.region-footer h4 {
+    border-bottom-color: @colorFooter;
+}
+
+// Fonts
+// @fontFamilyHeadings: "serif";
+// @fontFamilyBody:     "serif";
+@fontFamilyHeadings:  @fontFamilyCambria;
+@fontFamilyBody:      @fontFamilyVerdana;
+@fontFamilyNavbar:    @fontFamilyBody;
+@fontFamilySiteLogo:  @fontFamilyBody;
+
+// a-tags styling
+a {
+    color: @colorFooter;
+}
+
+.site-logo-text a {
+    color: @colorBody;
+}
+
+.rm-desktop li a:hover {
+    color: @colorBody;
+}
+
+.next-previous,
+.breadcrumb-list li {
+    color: @colorBody;
+}
