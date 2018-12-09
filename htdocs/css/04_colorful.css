@@ -4976,7 +4976,9 @@ hr::after {
 * {
   box-sizing: border-box;
 }
-ul {
+.toc ul,
+.breadcrumb-list ul,
+.footer-column-x ul {
   list-style: none;
   padding: 0;
 }
