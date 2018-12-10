@@ -19,7 +19,7 @@ Sedan flyttade familjen till Strömsund i Jämtland, där jag senare under gymna
 
 Jag var klar över att jag skulle bli ingenjör så efter lumpen och ett års skogsarbete så bar det av till KTH för en civilingenjörsutbildning i Elektroteknik.
 
-[FIGURE src="image/maldives_2011.jpg?w=400" class="right" caption="Maldiverna 2011" alt="Bild från Maldiverna"]
+[FIGURE src="image/maldives_2011.jpg?w=400" class="right w33" caption="Maldiverna 2011"]
 
 Efter examen så fick jag jobb på Ericsson i Kista. Jag jobbade mycket i början med programmering. Både högnivåsimuleringar i Fortran och Pascal såväl som implementering i C och assembler för inbyggda system. Efter ca 10 år så valde jag att bli projektledare och sedan chef, men jag saknade hela tiden programmeringen!
 

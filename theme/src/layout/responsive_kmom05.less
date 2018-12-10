@@ -1,0 +1,200 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+// Site logo
+@media screen and (max-width: 1700px) {
+    .site-logo {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+    .site-logo-text-icon {
+        display: inline-block;
+    }
+    .site-logo-text {
+        font-size: 44px;
+        padding-bottom: 4px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .site-logo-text {
+        visibility: hidden;
+    }
+}
+
+// Main menu
+@media screen and (max-width: 1500px) {
+    .region-header-col-1 {
+        #desinax-vgrid.column(5);
+    }
+    .region-header-col-3 {
+        #desinax-vgrid.column(3);
+    }
+    .region-header-col-2 {
+        #desinax-vgrid.column(16);
+    }
+    .rm-navbar ul.rm-desktop
+    {
+        text-align: left;
+
+        li {
+            a {
+                padding-left: 0;
+                padding-right: 0.6em;
+            }
+            &:last-of-type a {
+                padding-right: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .rm-navbar ul.rm-desktop
+    {
+        margin-left: -0.2em;
+        letter-spacing: -0.015em;
+        li {
+            a {
+                padding-right: 0.3em;
+            }
+        }
+    }
+    .region-header-col-1 {
+        #desinax-vgrid.column(6);
+    }
+    .region-header-col-3 {
+        #desinax-vgrid.column(1);
+    }
+    .region-header-col-2 {
+        #desinax-vgrid.column(17);
+    }
+}
+@media screen and (max-width: 1000px) {
+    .rm-navbar ul.rm-desktop
+    {
+        margin-left: -1.5em;
+        letter-spacing: -0.04em;
+        li {
+            a {
+                padding-right: 0.2em;
+            }
+        }
+    }
+    .region-header-col-1 {
+        #desinax-vgrid.column(7);
+    }
+    .region-header-col-3 {
+        #desinax-vgrid.column(0);
+    }
+    .region-header-col-2 {
+        #desinax-vgrid.column(17);
+    }
+}
+@media screen and (max-width: 900px) {
+    .region-header-col-1 {
+        #desinax-vgrid.column(24);
+    }
+    .region-header-col-3 {
+        #desinax-vgrid.column(0);
+    }
+    .region-header-col-2 {
+        #desinax-vgrid.column(0);
+    }
+    .rm-desktop {
+        display: none;
+    }
+}
+
+// Small screen menu
+@media screen and (min-width: 901px) {
+    .rm-navbar {
+        ul {
+            &.rm-small {
+                display: none;
+            }
+        }
+    }
+}
+
+// Main
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+    }
+}
+@media screen and (max-width: 900px) {
+    .region-main.has-sidebar {
+        &.has-sidebar-right.has-sidebar-left {
+            #desinax-vgrid.column(@columns * 3 / 4 - 1);
+            #desinax-vgrid.push(1);
+        }
+    }
+    .region-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 1 / 4);
+    }
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+@media screen and (max-width: 800px) {
+    .region-main {
+        &.has-sidebar {
+            &.has-sidebar-right,
+            &.has-sidebar-left {
+                #desinax-vgrid.column(@columns);
+            }
+            &.has-sidebar-right.has-sidebar-left {
+                #desinax-vgrid.column(@columns);
+            }
+        }
+    }
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+        &.has-sidebar-left {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+        &.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .byline {
+        width: 100%;
+    }
+    .inner-wrap.inner-wrap-main {
+        min-height: 0em;
+    }
+}
+@media screen and (max-width: 350px) {
+    .byline {
+        padding-left: 0;
+        padding-right: 0;
+
+        figure.figure.left {
+            margin-right: auto;
+            margin-left: auto;
+            float: none;
+        }
+    }
+}
+// Footer
+@media screen and (max-width: 800px) {
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+    .footer-column-x {
+        min-height: inherit;
+    }
+    .footer-column-1,
+    .footer-column-2 {
+        border-right: none;
+    }
+}

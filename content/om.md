@@ -28,7 +28,7 @@ views:
 Om denna webbplats
 =========================
 
-[FIGURE src=image/web-2643093_640.png?w=200 class="right"]
+[FIGURE src=image/web-2643093_640.png?w=200 class="right w25" alt=Design logo"]
 
 Denna webbplats är byggd i HTML, CSS och med PHP, som en del i kursen [design (v2)](https://dbwebb.se/kurser/design-v2). Kursen syftar till en orientering inom områden design och användbarhet, specifikt för tillämpningsområdet webb.
 
