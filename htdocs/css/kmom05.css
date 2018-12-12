@@ -5457,7 +5457,8 @@ figure.figure.right {
   padding: 0;
 }
 .blog-list-item {
-  margin-bottom: 3em;
+  overflow: auto;
+  margin-bottom: 1.5em;
 }
 .blog-list-item h1 a {
   text-decoration: none;
@@ -5465,6 +5466,11 @@ figure.figure.right {
 }
 .blog-list-item h1 a:hover {
   text-decoration: underline;
+}
+figure.figure.clear::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .blog-post h3 {
   clear: both;

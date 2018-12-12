@@ -15,24 +15,47 @@ published: "2018-12-12"
 ---
 Maldiverna 2011
 ==================================
+[FIGURE src="image/Maldiverna.jpg?width=200&height=200&crop-to-fit&sharpen" class="right w25" alt="Kuredo island, Maldives"]
 
-Nu har jag koll på läget, men jag måste skriva lite bättre och "catchy" rubriker.
-
-Annars kommer ingen läsa min blogg.
+Snöklädda berg, djupa skogar och _The Stanley Hotel_, mera känt som _Overlook Hotel_ från Stephen Kings bok _The Shining_.
 
 <!--more-->
 
-Man bör skriva intressanta texter, då får man fler läsare, visst är det så?
+Detta var egentligen en jobbresa som jag gjorde tillsammans med två arbetskamrater på Ericsson. Vi skulle besöka ett företag i Boulder, Colorado, för att se om vi eventuellt skulle förlägga mjukvaru utveckling där.
+
+Förutom jobb så hade vi också gott om tid att se oss omkring och bland annat så gjorde vi en fantastisk bilutflykt upp i Klippiga bergen.
 
 
+### Bilden och kameran {#boulder-2005-1}
 
-Rubrik 2 {#anchor-hit}
------------------------------------
+[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen" class="right w67" caption="Rocky Mountains i 448x252, flyter höger"]
 
-Text.
+Bilden är tagen vid foten av Klippiga bergen, vid lunchtid den 26/9. Vi hade åkt bil en timme från Boulder och parkerat för att sedan gå en kilometer efter en stig för att komma till denna vackra sjö.
 
+Kameran som användes var en Panasonic DMC-TZ7 med zoomen på största vidvinkel, vilket motsvarar 37mm på en fullformats kamera. Bländare f/3.6 och slutartid 1/500s. Orginalbilden är i 16:9 format och 3968x2232 pixlar. Filstorleken är 5.53MB. Som jämförelse så är bilden här bara 27KB.
 
+### Olika komprimeringsgrader {#boulder-2005-2}
+[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen&q=60" class="left w67" caption="Rocky Mountains i 448x252, quality = 60 (default)"]
+[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen&q=40" class="left w67" caption="Rocky Mountains i 448x252, quality = 40"]
+[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen&q=20" class="left w67" caption="Rocky Mountains i 448x252, quality = 20"]
+[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen&q=5" class="left w67" caption="Rocky Mountains i 448x252, quality = 5"]
 
-### Rubrik 3 {#vad-som}
+Här testar jag olika komprimeringar av bilden för att se hur kvaliteten påverkas. Den första bilden har kvaliteten satt till 60, vilket är default värdet i Cimage. Storleken på bilden är 27KB.
 
-Text.
+För den andra bilden har kvaliteten satts till 40. Storleken på bilden är nu 20KB och en liten bildförsämring tycker jag mig se.
+
+För den tredje bilden har kvaliteten satts till 20. Storleken på bilden är nu 12KB och ny syns det vekligen att bilden har blivit sämre, men ändå användbar.
+
+För den sista bilden har kvaliteten satts till 5. Storleken på bilden är nu 5KB och nu är bilden inte användbar längre.
+
+### Några filter {#boulder-2005-3}
+[FIGURE src="image/Boulder.jpg?width=222&height=148&sharpen&f=negate" class="right w50" caption="Rocky Mountains i 222x148, filter = negate."]
+[FIGURE src="image/Boulder.jpg?width=222&height=148&sharpen&f=grayscale" class="right w50" caption="Rocky Mountains i 222x148, filter = greyscale."]
+
+Här testar jag filtren "greyscale" och "negate".
+
+### Fullformat {#boulder-2005-4}
+
+Här är bilden i den största möjliga storleken på denna sida, 775x436. Det är en krympning från orginalbildens storlek på 3968x2232. Komprimeringen av bilden har inte ökats, men filstorleken är ändå bara 79KB mot orginalbildens 5.53MB.
+
+[FIGURE src="image/Boulder.jpg?width=775&height=436&sharpen" caption="Rocky Mountains i formatet 775x436 pixlar"]
