@@ -17,45 +17,39 @@ Maldiverna 2011
 ==================================
 [FIGURE src="image/Maldiverna.jpg?width=200&height=200&crop-to-fit&sharpen" class="right w25" alt="Kuredo island, Maldives"]
 
-Snöklädda berg, djupa skogar och _The Stanley Hotel_, mera känt som _Overlook Hotel_ från Stephen Kings bok _The Shining_.
+Kritvit sand, underbart vackra blommor och andra växter, samt en fantastisk undervattensvärld!
 
 <!--more-->
 
-Detta var egentligen en jobbresa som jag gjorde tillsammans med två arbetskamrater på Ericsson. Vi skulle besöka ett företag i Boulder, Colorado, för att se om vi eventuellt skulle förlägga mjukvaru utveckling där.
+De två veckor som jag och min fru spenderade här våren 2011 är nog den mest exotiska resa jag har gjort i hela mitt liv så här långt. Det var så vackert och så lugnt. Fantastiska badstränder och vi kunde gå rakt ut i vattnet från vår Bungalow, snorkla och se en massa vackra fiskar och koraller. Dessutom, bäst av allt, jättesköldpaddor som simmade förbi helt inpå oss.
 
-Förutom jobb så hade vi också gott om tid att se oss omkring och bland annat så gjorde vi en fantastisk bilutflykt upp i Klippiga bergen.
+Det var väldigt kul att vi kunde resa till detta land, som kanske försvinner under havet i framtiden när issmältningen höjer vattennivån.
 
+### Bilden och kameran {#maldiverna-2011-1}
 
-### Bilden och kameran {#boulder-2005-1}
+[FIGURE src="image/Maldiverna.jpg?width=700&height=200&crop-to-fit&area=0,0,10,0&sharpen" class="center" caption="Kuredo i 700x200, centrerad och croppad"]
 
-[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen" class="right w67" caption="Rocky Mountains i 448x252, flyter höger"]
+Ön Kuredo är inte större än att man går runt den på en halvtimme. Bilden är tagen kl 10:30 den 31/3 på öns västra spets, där det var uppställt en vit gazebo för att hålla vigslar.
 
-Bilden är tagen vid foten av Klippiga bergen, vid lunchtid den 26/9. Vi hade åkt bil en timme från Boulder och parkerat för att sedan gå en kilometer efter en stig för att komma till denna vackra sjö.
+Kameran som användes var en Canon PowerShot SX30 IS med zoomen inställd på 10mm, vilket motsvarar ca 50mm på en fullformats kamera. Bländare f/5.6 och slutartid 1/1000s. Orginalbilden är i 4:3 format och har 4320x3240 pixlar. Filstorleken är 2.88MB.
 
-Kameran som användes var en Panasonic DMC-TZ7 med zoomen på största vidvinkel, vilket motsvarar 37mm på en fullformats kamera. Bländare f/3.6 och slutartid 1/500s. Orginalbilden är i 16:9 format och 3968x2232 pixlar. Filstorleken är 5.53MB. Som jämförelse så är bilden här bara 27KB.
+### Test av art direction {#maldiverna-2011-2}
+Här ska jag testa s.k. art direction med hjälp av `<picture>` taggen. Jag använder tre olika bilder beroende på enhetens storlek. När skärmen är bred (>= 450 pixlar), så används hela bilden fast jag har skurit bort den övre delen (20%) för att få en proportionerligare bild.
 
-### Olika komprimeringsgrader {#boulder-2005-2}
-[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen&q=60" class="left w67" caption="Rocky Mountains i 448x252, quality = 60 (default)"]
-[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen&q=40" class="left w67" caption="Rocky Mountains i 448x252, quality = 40"]
-[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen&q=20" class="left w67" caption="Rocky Mountains i 448x252, quality = 20"]
-[FIGURE src="image/Boulder.jpg?width=448&height=252&sharpen&q=5" class="left w67" caption="Rocky Mountains i 448x252, quality = 5"]
+<div>
+<picture>
+    <source media="(min-width: 450px)" srcset="../image/Maldiverna.jpg?width=775&height=465&crop-to-fit&area=20,0,0,0&sharpen">
+    <source media="(min-width: 300px)" srcset="../image/Maldiverna.jpg?width=450&height=600&crop-to-fit&area=20,0,0,20&sharpen">
+    <img src="image/Maldiverna.jpg?width=300&height=300&crop-to-fit&area=23,50,27,0&sharpen" alt="Kuredo island">
+</picture>
+</div>
 
-Här testar jag olika komprimeringar av bilden för att se hur kvaliteten påverkas. Den första bilden har kvaliteten satt till 60, vilket är default värdet i Cimage. Storleken på bilden är 27KB.
+När skärmen blir mindre (< 450 pixlar men >= 300 pixlar) så visas en vertikalt stående bild med formatet 450x600 pixlar som är taget från mitten av bilden, men lite åt höger så att gazebon ej kommer med.
 
-För den andra bilden har kvaliteten satts till 40. Storleken på bilden är nu 20KB och en liten bildförsämring tycker jag mig se.
+När skärmen blir < 300 pixlar så visas bara en liten bild med formatet 300x300 pixlar, på själva gazebon.
 
-För den tredje bilden har kvaliteten satts till 20. Storleken på bilden är nu 12KB och ny syns det vekligen att bilden har blivit sämre, men ändå användbar.
+### Fullformat {#maldiverna-2011-3}
 
-För den sista bilden har kvaliteten satts till 5. Storleken på bilden är nu 5KB och nu är bilden inte användbar längre.
+Här är bilden i den största möjliga storleken på denna sida, 775x581. Det är en krympning från originalbildens storlek på 4320x3240. Komprimeringen av bilden har inte ökats, men filstorleken är ändå bara 54KB mot originalbildens 2.88MB.
 
-### Några filter {#boulder-2005-3}
-[FIGURE src="image/Boulder.jpg?width=222&height=148&sharpen&f=negate" class="right w50" caption="Rocky Mountains i 222x148, filter = negate."]
-[FIGURE src="image/Boulder.jpg?width=222&height=148&sharpen&f=grayscale" class="right w50" caption="Rocky Mountains i 222x148, filter = greyscale."]
-
-Här testar jag filtren "greyscale" och "negate".
-
-### Fullformat {#boulder-2005-4}
-
-Här är bilden i den största möjliga storleken på denna sida, 775x436. Det är en krympning från orginalbildens storlek på 3968x2232. Komprimeringen av bilden har inte ökats, men filstorleken är ändå bara 79KB mot orginalbildens 5.53MB.
-
-[FIGURE src="image/Boulder.jpg?width=775&height=436&sharpen" caption="Rocky Mountains i formatet 775x436 pixlar"]
+[FIGURE src="image/Maldiverna.jpg?width=775&height=581&sharpen" caption="Kuredo i formatet 775x581 pixlar"]
