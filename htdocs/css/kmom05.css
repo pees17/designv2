@@ -5273,19 +5273,19 @@ hr::after {
   text-align: center;
   margin: 0;
 }
-.rm-navbar ul.rm-desktop li {
+.rm-navbar ul.rm-desktop > li {
   display: inline-block;
 }
-.rm-navbar ul.rm-desktop li .rm-submenu-button {
+.rm-navbar ul.rm-desktop > li .rm-submenu-button {
   display: none;
 }
-.rm-navbar ul.rm-desktop li a {
+.rm-navbar ul.rm-desktop > li a {
   padding: 24px 24px 24px 0;
 }
-.rm-navbar ul.rm-desktop li:last-of-type a {
+.rm-navbar ul.rm-desktop > li:last-of-type a {
   padding-right: 0;
 }
-.rm-navbar ul.rm-desktop li ul {
+.rm-navbar ul.rm-desktop > li ul {
   background-color: rgba(255, 255, 255, 0.6);
 }
 .rm-navbar ul.rm-small {
