@@ -36,13 +36,11 @@ Kameran som användes var en Canon PowerShot SX30 IS med zoomen inställd på 10
 ### Test av art direction {#maldiverna-2011-2}
 Här ska jag testa s.k. art direction med hjälp av `<picture>` taggen. Jag använder tre olika bilder beroende på enhetens storlek. När skärmen är bred (>= 450 pixlar), så används hela bilden fast jag har skurit bort den övre delen (20%) för att få en proportionerligare bild.
 
-<div>
 <picture>
     <source media="(min-width: 450px)" srcset="../image/Maldiverna.jpg?width=775&height=465&crop-to-fit&area=20,0,0,0&sharpen">
     <source media="(min-width: 300px)" srcset="../image/Maldiverna.jpg?width=450&height=600&crop-to-fit&area=20,0,0,20&sharpen">
     <img src="image/Maldiverna.jpg?width=300&height=300&crop-to-fit&area=23,50,27,0&sharpen" alt="Kuredo island">
 </picture>
-</div>
 
 När skärmen blir mindre (< 450 pixlar men >= 300 pixlar) så visas en vertikalt stående bild med formatet 450x600 pixlar som är taget från mitten av bilden, men lite åt höger så att gazebon ej kommer med.
 

@@ -1,6 +1,11 @@
 Revision history
 ==================
 
+v5.0.8 (2018-12-13)
+------------------------
+* Ready with kmom05.
+
+
 v5.0.7 (2018-12-13)
 ------------------------
 * Changed the style on the blog.
