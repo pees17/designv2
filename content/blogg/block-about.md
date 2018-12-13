@@ -1,3 +1,7 @@
-#### Dagens bild
+<div class="block-about">
 
-Kortare blogginlägg med bilder från några av mina resor.
+<h4>Dagens bild</h4>
+
+<p>Kortare blogginlägg med bilder från några av mina resor.<p>
+
+</div>

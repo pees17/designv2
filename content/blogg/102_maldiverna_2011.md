@@ -15,19 +15,19 @@ published: "2018-12-12"
 ---
 Maldiverna 2011
 ==================================
-[FIGURE src="image/Maldiverna.jpg?width=200&height=200&crop-to-fit&sharpen" class="right w25" alt="Kuredo island, Maldives"]
+[FIGURE src="image/Maldiverna.jpg?width=168&height=168&crop-to-fit&sharpen" class="right w25" alt="Kuredo island, Maldives"]
 
 Kritvit sand, underbart vackra blommor och andra växter, samt en fantastisk undervattensvärld!
 
 <!--more-->
 
-De två veckor som jag och min fru spenderade här våren 2011 är nog den mest exotiska resa jag har gjort i hela mitt liv så här långt. Det var så vackert och så lugnt. Fantastiska badstränder och vi kunde gå rakt ut i vattnet från vår Bungalow, snorkla och se en massa vackra fiskar och koraller. Dessutom, bäst av allt, jättesköldpaddor som simmade förbi helt inpå oss.
+De två veckor som jag och min fru spenderade här våren 2011 är nog den mest exotiska resa jag har gjort i hela mitt liv så här långt. Det var så vackert och så lugnt. Fantastiska badstränder och vi kunde gå rakt ut i vattnet från vår Bungalow, snorkla och se en massa vackra fiskar och koraller. Dessutom, bäst av allt, jättesköldpaddor som simmade förbi helt inpå oss!
 
 Det var väldigt kul att vi kunde resa till detta land, som kanske försvinner under havet i framtiden när issmältningen höjer vattennivån.
 
 ### Bilden och kameran {#maldiverna-2011-1}
 
-[FIGURE src="image/Maldiverna.jpg?width=700&height=200&crop-to-fit&area=0,0,10,0&sharpen" class="center" caption="Kuredo i 700x200, centrerad och croppad"]
+[FIGURE src="image/Maldiverna.jpg?width=700&height=204&crop-to-fit&area=0,0,10,0&sharpen" class="center" caption="Kuredo i 700x204, centrerad och croppad"]
 
 Ön Kuredo är inte större än att man går runt den på en halvtimme. Bilden är tagen kl 10:30 den 31/3 på öns västra spets, där det var uppställt en vit gazebo för att hålla vigslar.
 

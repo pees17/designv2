@@ -5452,50 +5452,86 @@ figure.figure.right {
 /**
  * Style for the blogg
  */
+.blog-toc {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.blog-toc h4 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 .blog-toc ul {
   list-style: none;
   padding: 0;
 }
+.blog-toc ul li a:hover {
+  color: #FF4136;
+  text-decoration: none;
+}
+.block-about {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.block-about h4 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.block.toc.article-toc {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.block.toc.article-toc h4 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 .blog-list-item {
+  font-family: "Comic Sans MS", cursive, sans-serif;
   overflow: auto;
-  margin-bottom: 1.5em;
+  border-top: 1px solid #888;
+}
+.blog-list-item h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-bottom-color: rgba(255, 255, 255, 0);
 }
 .blog-list-item h1 a {
   text-decoration: none;
   color: inherit;
 }
 .blog-list-item h1 a:hover {
-  text-decoration: underline;
+  color: #FF4136;
 }
-figure.figure.clear::after {
-  content: "";
-  display: block;
+.blog-list-item h2,
+.blog-list-item h3,
+.blog-list-item h4 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.article.blog * {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.article.blog-post {
+  margin-bottom: 3em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.article.blog-post h3 {
   clear: both;
 }
-.blog-post h3 {
-  clear: both;
+.article.blog-post h1,
+.article.blog-post h2,
+.article.blog-post h3,
+.article.blog-post h4 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
-a.header-anchor {
+.header-anchor {
   display: none;
 }
 .readmore a {
   color: inherit;
 }
+.readmore a:hover {
+  color: #FF4136;
+}
 .meta-header {
   font-size: 0.875em;
-  font-style: italic;
-}
-p.meta-header {
   line-height: 1.71428571em;
-}
-article.article.blog {
-  margin-bottom: 3em;
-}
-span.meta-header {
+  font-style: italic;
   display: block;
-  margin-bottom: -21px;
+  margin-top: 23px;
 }
-.meta-footer {
+.meta-footer p {
   font-size: 0.875em;
   line-height: 1.71428571em;
 }
