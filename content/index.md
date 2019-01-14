@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Hem"
 
 views:
     byline:

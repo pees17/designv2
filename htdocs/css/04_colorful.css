@@ -4628,7 +4628,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: black;
+  background-color: #333;
 }
 body {
   margin: 0;

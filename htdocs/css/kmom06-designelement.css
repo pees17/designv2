@@ -4608,12 +4608,12 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: black;
+  background-color: #333;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #111;
   background-color: white;
   font: 16px/1.5 Verdana, Geneva, sans-serif;
 }
@@ -4759,7 +4759,7 @@ samp {
   padding-right: 1px;
 }
 code {
-  background-color: #eee;
+  background-color: #fff;
 }
 pre,
 div.code,
@@ -4783,7 +4783,7 @@ pre code {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 0.5em;
-  background-color: #eee;
+  background-color: #fff;
 }
 ul,
 ol {
@@ -4970,7 +4970,7 @@ hr::after {
 }
 .outer-wrap.outer-wrap-footer {
   background-color: #333;
-  color: #ccc;
+  color: #eee;
 }
 .outer-wrap.outer-wrap-flash {
   padding: 0;
@@ -5158,7 +5158,7 @@ hr::after {
   text-decoration: underline;
 }
 .toc li.selected {
-  background-color: #eee;
+  background-color: #fff;
 }
 .toc li.section-header {
   font-weight: bold;
@@ -5287,6 +5287,9 @@ hr::after {
 }
 .rm-navbar ul.rm-desktop > li ul {
   background-color: rgba(255, 255, 255, 0.8);
+}
+.rm-navbar ul.rm-desktop > li ul li {
+  padding-left: 4px;
 }
 .rm-navbar ul.rm-small {
   font-size: 1.5em;
@@ -5629,7 +5632,7 @@ table.scheme.di td.color5 {
     visibility: hidden;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1425px) {
   .region-header-col-1 {
     display: inline;
     float: left;
@@ -5664,7 +5667,7 @@ table.scheme.di td.color5 {
     padding: 22px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
   .region-header-col-1 {
     display: inline;
     float: left;
@@ -5716,7 +5719,7 @@ table.scheme.di td.color5 {
     padding-right: 8px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
   .region-header-col-1 {
     display: inline;
     float: left;
@@ -5742,7 +5745,7 @@ table.scheme.di td.color5 {
     display: none;
   }
 }
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 926px) {
   .rm-navbar ul.rm-small {
     display: none;
   }
@@ -5866,3 +5869,42 @@ table.scheme.di td.color5 {
 /**
  * Typographic font families to choose from.
 */
+figure.figure img,
+picture img {
+  box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.25);
+}
+html {
+  background-image: url("../img/PIXNIO-1806796-1200x800.jpg");
+  background-attachment: fixed;
+  background-position: bottom left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #4f5d7c;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.outer-wrap.outer-wrap-footer {
+  background: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.9));
+}
+@keyframes yrot {
+  0% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+@keyframes xrot {
+  0% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+span.site-logo-text {
+  animation-name: xrot;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}

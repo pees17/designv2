@@ -4608,7 +4608,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: black;
+  background-color: #333;
 }
 body {
   margin: 0;
@@ -5288,6 +5288,9 @@ hr::after {
 .rm-navbar ul.rm-desktop > li ul {
   background-color: rgba(255, 255, 255, 0.8);
 }
+.rm-navbar ul.rm-desktop > li ul li {
+  padding-left: 4px;
+}
 .rm-navbar ul.rm-small {
   font-size: 1.5em;
   display: block;
@@ -5629,7 +5632,7 @@ table.scheme.di td.color5 {
     visibility: hidden;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1425px) {
   .region-header-col-1 {
     display: inline;
     float: left;
@@ -5664,7 +5667,7 @@ table.scheme.di td.color5 {
     padding: 22px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
   .region-header-col-1 {
     display: inline;
     float: left;
@@ -5716,7 +5719,7 @@ table.scheme.di td.color5 {
     padding-right: 8px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
   .region-header-col-1 {
     display: inline;
     float: left;
@@ -5742,7 +5745,7 @@ table.scheme.di td.color5 {
     display: none;
   }
 }
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 926px) {
   .rm-navbar ul.rm-small {
     display: none;
   }
