@@ -1,5 +1,5 @@
-Laddningstid
-=========================
+Utvärdering laddningstid
+========================
 Denna uppgift är att mäta ett antal webbplatsers laddningstider och se om de innehåller några saker som kan förbättras med tanke på laddningstid och användbarhet.
 
 Urval

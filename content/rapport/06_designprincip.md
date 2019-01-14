@@ -1,5 +1,5 @@
-Designprinciper
-=========================
+Utvärdering designprinciper
+===========================
 Denna uppgift är att välja ut ett antal olika webbplatser och studera dem utifrån aspekten designprinciper.
 
 Jag har studerat webbplatserna och försökt identifiera om de använder sig av några designprinciper som jag känner igen samt om jag finner något annat tongivande för designen i deras webbplats.

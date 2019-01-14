@@ -1,7 +1,5 @@
----
----
-Färgschema
-=========================
+Utvärdering färgschema
+======================
 Denna uppgift är att utvärdera ett antal webbplatsers färgval och känslan de signalerar.
 
 Urval

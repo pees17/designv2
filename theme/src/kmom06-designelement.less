@@ -1,0 +1,135 @@
+/*!
+ * Stylesheet for design kmom06 - Design Elements.
+ *
+ * This stylesheet is for the design course, kmom06 where we focus on design elements.
+ */
+
+/**
+ * Import mixins.
+ */
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+ * A responsive menu.
+ */
+
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+// @import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+ // @import "base/base.less";
+ @import "base/base_kmom03.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+@import "layout/vgrid.less";
+
+// // Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/regions.less";     // To add style for ?regions
+// @import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+@import "module/site-logo.less";
+// @import "module/navbars.less";
+@import "module/navbars_kmom05.less";
+@import "module/byline.less";
+// @import "module/figure.less";
+@import "@desinax/figure/less/figure.less";
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+@import "module/blog.less";
+@import "module/color-scheme.less";
+
+// @import "layout/responsive.less";
+// @import "layout/responsive_kmom03.less";
+// @import "layout/responsive_kmom04.less";
+@import "layout/responsive_kmom05.less";
+
+/**
+ * My own settings, not currently in their own module.
+*/
+@colorH1BorderBottom: #888;
+@colorH2BorderBottom: #AAA;
+@colorH3BorderBottom: #CCC;
+@colorH4BorderBottom: #DDD;
+
+// Adapt the typographic grid to my style
+// @fontFamilyHeadings: "serif";
+// @fontFamilyBody:     "sans-serif";
+@fontFamilyCode:     "monospace";
+
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+/**
+ * Typographic font families to choose from.
+*/
+// Monospace
+// @fontFamilyCourier
+// @fontFamilyMonospace
+
+// Serif
+// @fontFamilyCambria
+// @fontFamilyTimes
+// @fontFamilyTimesNewRoman
+// @fontFamilyGaramond
+
+// Sans-serif
+// @fontFamilyHelvetica Bra body
+// @fontFamilyCalibri
+// @fontFamilyVerdana Bra body
+// @fontFamilyMyriadPro Bra body
+// @fontFamilyHelveticaNeue
+// @fontFamilyArial
+@fontFamilyHeadings:  @fontFamilyCambria;
+@fontFamilyBody:      @fontFamilyVerdana;
+@fontFamilyBlog:      "Comic Sans MS", cursive, sans-serif;
