@@ -3,119 +3,79 @@
  */
 
 // Site logo
-@media screen and (max-width: 1700px) {
-    .site-logo {
-        width: 150px;
-    }
-}
-@media screen and (max-width: 1500px) {
-    .site-logo {
-        display: none;
-    }
-    .site-logo-text-icon {
-        display: inline-block;
-    }
-    .site-logo-text {
-        font-size: 44px;
-        padding-bottom: 4px;
-    }
-}
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 250px) {
     .site-logo-text {
         visibility: hidden;
     }
 }
 
 // Main menu
-@media screen and (max-width: 1425px) {
-    .region-header-col-1 {
-        #desinax-vgrid.column(5);
-    }
-    .region-header-col-3 {
-        #desinax-vgrid.column(2);
-    }
-    .region-header-col-2 {
-        #desinax-vgrid.column(17);
-    }
-    .rm-navbar {
-        font-size: 22px;
-        ul {
-            &.rm-desktop
-            {
-                text-align: left;
-
-                li a {
-                    padding-right: 22px;
-                }
-            }
-            &.rm-mobile
-            {
-                li .rm-submenu-button {
-                    padding: 22px;
-                }
-            }
-        }
+@media screen and (max-width: 1500px) {
+    .rm-navbar ul.rm-desktop > li a {
+        padding-right: 36px;
     }
 }
-@media screen and (max-width: 1210px) {
+
+@media screen and (max-width: 1400px) {
     .region-header-col-1 {
-        #desinax-vgrid.column(6);
+        #desinax-vgrid.column(4);
+    }
+    .region-header-col-3 {
+        #desinax-vgrid.column(1);
+    }
+    .region-header-col-2 {
+        #desinax-vgrid.column(19);
+    }
+    .rm-navbar ul.rm-desktop > li a {
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .region-header-col-1 {
+        #desinax-vgrid.column(5);
     }
     .region-header-col-3 {
         #desinax-vgrid.column(0);
     }
     .region-header-col-2 {
-        #desinax-vgrid.column(18);
+        #desinax-vgrid.column(19);
     }
-    .rm-navbar {
-        ul {
-            &.rm-desktop {
-                margin-left: -24px;
-
-                li a {
-                    padding-right: 20px;
-                }
-            }
+    .rm-navbar ul.rm-desktop {
+        text-align: left;
+        > li a {
+            padding-right: 24px;
         }
     }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1060px) {
     .rm-navbar {
-        font-size: 20px;
         ul {
             &.rm-desktop
             {
-                margin-left: -12px;
+                margin-left: -2px;
 
-                li a {
+                > li a {
                     padding-right: 12px;
                 }
             }
-            &.rm-mobile
-            {
-                li .rm-submenu-button {
-                    padding: 20px;
-                }
-            }
         }
     }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
     .rm-navbar {
         ul {
             &.rm-desktop
             {
-                letter-spacing: -0.01em;
                 margin-left: 0;
 
-                li a {
+                > li a {
                     padding-right: 8px;
                 }
             }
         }
     }
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 920px) {
     .region-header-col-1 {
         #desinax-vgrid.column(24);
     }
@@ -131,7 +91,7 @@
 }
 
 // Small screen menu
-@media screen and (min-width: 941px) {
+@media screen and (min-width: 921px) {
     .rm-navbar {
         ul {
             &.rm-small {

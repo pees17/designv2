@@ -1,6 +1,7 @@
 /**
  * Style for the blogg
  */
+ @blogHoverColor: #FF4136;
 .blog-toc {
     font-family: @fontFamilyBlog;
     h4 {
@@ -11,7 +12,7 @@
         padding: 0;
 
         li a:hover {
-            color: #FF4136;
+            color: @blogHoverColor;
             text-decoration: none;       }
     }
 }
@@ -42,7 +43,7 @@
             color: inherit;
 
             &:hover {
-                color: #FF4136;
+                color: @blogHoverColor
             }
         }
     }
@@ -75,7 +76,7 @@
     color: inherit;
 
     &:hover {
-        color: #FF4136;
+        color: @blogHoverColor;
     }
 }
 

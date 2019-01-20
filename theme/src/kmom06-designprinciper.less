@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom06 - Design Elements.
+ * Stylesheet for design kmom06 - Design Principles.
  *
- * This stylesheet is for the design course, kmom06 where we focus on design elements.
+ * This stylesheet is for the design course, kmom06 where we focus on design principles.
  */
 
 /**
@@ -76,7 +76,8 @@
 // @import "layout/layout_kmom02.less";
 @import "module/site-logo.less";
 // @import "module/navbars.less";
-@import "module/navbars_kmom05.less";
+// @import "module/navbars_kmom05.less";
+@import "module/navbars_kmom06-designprinciper.less";
 @import "module/byline.less";
 // @import "module/figure.less";
 @import "@desinax/figure/less/figure.less";
@@ -90,7 +91,8 @@ figure.figure {
 // @import "layout/responsive.less";
 // @import "layout/responsive_kmom03.less";
 // @import "layout/responsive_kmom04.less";
-@import "layout/responsive_kmom05.less";
+// @import "layout/responsive_kmom05.less";
+@import "layout/responsive_kmom06-designprinciper.less";
 
 /**
  * My own settings, not currently in their own module.
@@ -130,48 +132,94 @@ figure.figure {
 // @fontFamilyMyriadPro Bra body
 // @fontFamilyHelveticaNeue
 // @fontFamilyArial
-@fontFamilyHeadings:  @fontFamilyCambria;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Charm');
+
+@fontFamilySiteLogo:  'Charm', cursive;
+@fontFamilyNavbar:    'Charm', cursive;
+
+@fontFamilyHeadings:  'Roboto', sans-serif;
 @fontFamilyBody:      @fontFamilyVerdana;
-@fontFamilyBlog:      "Comic Sans MS", cursive, sans-serif;
-// @import url('https://fonts.googleapis.com/css?family=Charm');
-// @fontFamilySiteLogo:  'Charm', cursive;
-// @fontFamilyNavbar:    'Charm', cursive;
-figure.figure, picture {
-    img {
-        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.25);
-    }
+@fontFamilyBlog:      'Comic Sans MS', cursive, sans-serif;
+
+@logoColor:     #069ed1;
+@bgColorRmSubMenuButtonHover: #222;
+@blogHoverColor: @logoColor;
+
+.toc li.selected {
+    background: linear-gradient(to right, rgba(6, 158, 209, 0.5), rgba(6, 158, 209, 0.2));
 }
+
+// Remove large site-logo
+.site-logo {
+    display: none;
+}
+.site-logo-text-icon {
+    display: inline-block;
+}
+.site-logo-text {
+    font-size: 44px;
+    padding-bottom: 10px;
+    margin-top: -2px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    color: @logoColor;
+}
+// Flash picture spanning 100%
+.inner-wrap-flash {
+    #desinax-vgrid.grid(100%);
+}
+.region-flash img {
+    width: 100%;
+}
+
+// Background picture and transparent body
 html {
-    background-image: url("../img/PIXNIO-1806796-1200x800.jpg");
+    background-color: #2e2e30;
+    background-image: url("../img/black-and-white-dark-light-255347.jpg");
     background-attachment: fixed;
     background-position: bottom left;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #4f5d7c;
+
 }
 body {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: unset;
+    color: #222;
+}
+@keyframes appear {
+    0%  {opacity: 0;}
+  100%  {opacity: 1;}
+}
+.region-main, .region-sidebar-left, .region-sidebar-right {
+    background-color: rgba(255,255,255,0.7);
+    padding: 4px;
+    margin-top: 1em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    animation-name: appear;
+    animation-duration: 0.25s;
+    animation-timing-function: cubic-bezier(0.72, 0.01, 1, 1);
+}
+.region-header {
+    .clearfix();
+    background-color: rgba(255,255,255,0.85);
+}
+.region-breadcrumb {
+    color: #ccc;
+}
+.outer-wrap.outer-wrap-main {
+    margin-bottom: 1em;
+}
+.outer-wrap.outer-wrap-header {
+    padding-bottom: 0;
 }
 .outer-wrap.outer-wrap-footer {
-    background: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.9));
+    background-color: rgba(0,0,0,0.5);
+    color: #bbb;
 }
-@colorFooter: #eee;
-@colorBody: #111;
-
-@bgColorListSelected: #fff;
-@bgColorCodeInline:   #fff;
-@bgColorCodeBlock:    #fff;
-
-@keyframes yrot {
-    0%    {transform: rotateY(90deg);}
-  100%  {transform: rotateY(0deg);}
+.inner-wrap-footer {
+    border-top: unset;
 }
-@keyframes xrot {
-    0%    {transform: rotateX(90deg);}
-  100%  {transform: rotateX(0deg);}
-}
-span.site-logo-text {
-  animation-name: xrot;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
+h4 {
+    border-bottom: 1px solid #999;
 }

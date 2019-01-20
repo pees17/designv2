@@ -1,0 +1,102 @@
+/**
+ * Main navbar and responsive navbar.
+ */
+.rm-navbar {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 28px;
+    line-height: 0;
+    font-family: @fontFamilyNavbar;
+
+    ul {
+        &.rm-desktop
+        {
+
+            text-align: center;
+            margin: 0;
+
+            > li {
+                display: inline-block;
+
+                .rm-submenu-button {
+                    display: none;
+                }
+                a {
+                    padding: 24px 46px 24px 0;
+                    text-decoration: none;
+                }
+                &:last-of-type a {
+                    padding-right: 0;
+                }
+                &:hover {
+                    color: @logoColor;
+                    text-decoration: none;
+                }
+                ul {
+                    background-color: @bgColorRmSub;
+                    li {
+                        color:initial;
+                        padding-left: 4px;
+                        &:hover {
+                            color: @logoColor;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        &.rm-small
+        {
+            font-size: 1.5em;
+            display: block;
+            margin-top: -10px;
+        }
+        &.rm-mobile
+        {
+            a {
+                text-decoration: none;
+            }
+            text-align: left;
+            color: @colorRmSmall;
+            background-color: @bgColorRmSmall;
+
+            li {
+                &:first-of-type {
+                    border-top: 1px solid @bgColorRmSmallHover;
+                }
+                box-shadow: none;
+                border-bottom: 1px solid @bgColorRmSmallHover;
+                .rm-submenu-button {
+                    background-color: @bgColorRmSubMenuButton;
+                    padding: 28px;
+                    margin: 0;
+                    box-shadow: inherit;
+                    border-radius: 0;
+                    &:hover {
+                        background-color: @bgColorRmSubMenuButtonHover;
+                    }
+                }
+                a:hover {
+                    text-decoration: none;
+                    background-color: @bgColorRmSubMenuButtonHover;
+                    color: @logoColor;
+                }
+            }
+            .rm-show-submenu {
+                padding-left: 0;
+                li {
+                    &:hover {
+                        text-decoration: none;
+                        background-color: @bgColorRmSubMenuButtonHover;
+                        color: @logoColor;
+                    }
+                    a {
+                        padding-left: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+    .rm-small-wrapper {
+        text-shadow: none;
+    }
+}
