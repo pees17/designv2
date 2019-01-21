@@ -1,8 +1,8 @@
 Designelement, kmom06
 =====================
-De designelement jag jag har valt är skuggning (3D effekt), bakgrund, gradienter, genomskinlighet, textur och animering.
+De designelement jag har valt är skuggning (3D effekt), bakgrund, gradienter, genomskinlighet, textur och animering.
 
-Jag tog en kopia på mitt kmom05 tema och gjorde tillägg sist i filen kmom06-designelement.less för att få till designelementen. 
+Jag tog en kopia på mitt kmom05 tema och gjorde tillägg sist i filen kmom06-designelement.less för att få till designelementen.
 
 Skuggning
 ---------

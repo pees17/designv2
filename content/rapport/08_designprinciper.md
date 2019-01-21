@@ -1,22 +1,23 @@
 Designprinciper, kmom06
-=====================
-De designprinciper jag jag har valt att jobba med är färg, ramar, typografi och rörelse.
+=======================
+De designprinciper jag har valt att jobba med är färg, djup, typografi och rörelse.
 
 Mitt främsta bakgrundsmaterial har varit "[Design Elements & Principles](https://www.canva.com/learn/design-elements-principles/)".
-Jag tog en kopia på mitt kmom05 tema och gjorde tillägg sist i filen kmom06-designprinciper.less för att få till mina designprinciper.
 
-Skuggning
----------
-För att uppnå en liten 3D-effekt så har jag lagt en skuggning på bilderna. Jag har gjort det genom att använda box-shadow på img-taggarna. Dock bara de taggar som ligger inom figure.figure och picture taggar för att inte få skugga på t.ex. flash-bilder.
+Det jag ville uppnå med min design var enhetlighet, lugn och harmoni, men samtidigt kombinerat med lite dramatik och rörlighet.
 
-Bakgrund, genomskinlighet, textur
------------------------------------
-Jag har lagt en bakgrundsbild på html elementet i form av lätt krusigt hav som ligger fixerad. Jag har sedan gjort body elementet lite transparant (opacity 0.8) så att man ser bakgrundsbilden igenom. Detta ger dessutom lite textur till sidan.
+###Djup
+Jag tog bort bakgrundsfärgen på min body och lät mina main och sidebar regioner få en bakgrundsfärg som är lätt genomskinlig så att de ser ut att flyta ovanpå bakgrundsbilden som ligger på html elementet. Jag lade även en skuggning på dessa regioner för att förhöja känslan av att de flyter ovanpå. Även logo texten och menyvalen fick en skuggning.
 
-Gradienter
-----------
-Jag lade en linjär gradient på footern så att den går från opacity 0.5 till opacity 0.9 längst ned.
+###Färg
+Jag har kört stenhårt på ett monokromt färgschema för att få enhetlighet och harmoni. Den enda färgen är den blåa som finns i loggan, annars är det bara svart/vitt/grått. Den blåa färgen återkommer sedan när man hovrar över vissa element, speciellt valen i toppmenyn. Blått finns också för att markera valen i sidebaren.
 
-Animering
----------
-Jag har testat animering genom att lägga en 3D rotation på site loggan. Varje gång man läser in sidan så roterar den i x-led från 90 grader till 0 grader under 1 sekund. Det ger effekten att det ser ut som att loggan ligger ner och reser sig upp.
+Dock så har jag fortfarande låtit de flesta länkar som går utanför webbplatsen behålla sitt standardutseende för att inte förvirra.
+
+###Typografi
+Jag ville att logo texten skulle få ett mjukare utseende och ändrade därför fonten till Charm från Google Fonts, som är en handstil. Jag tog även denna font till navbaren för att det inte skulle se konstigt ut.
+
+För att inte blanda för många olika stilar så ändrade jag också heading fonten från att ha varit en serif till att vara en sans serif, vilket body texten redan var. Jag valde Roboto från Google Fonts.
+
+###Rörelse
+För att balansera det lugna och harmoniska med lite rörelse och dramatik så valde jag en mörk och dramatisk bakgrundsbild på ett hav med ett åskoväder över. Rörelse införde jag genom att mina main och sidebar regioner har en snabb animering varje gång en sida laddas så att de går från att vara osynliga (opacity 0) till synliga (opacity 1) på 0.25 sekunder. Det gör att man får känslan av att de växer fram ur bakgrunden.
