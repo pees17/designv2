@@ -1,1 +1,1 @@
-Copyright &copy; 2018 Peo Eriksson
+Copyright &copy; 2019 Peo Eriksson

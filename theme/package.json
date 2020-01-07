@@ -25,14 +25,14 @@
   },
   "homepage": "https://github.com/desinax/theme#readme",
   "dependencies": {
-    "@desinax/figure": "^1.1.0",
+    "@desinax/figure": "^1.0.7",
     "@desinax/general": "^1.0.3",
     "@desinax/link": "^1.0.1",
     "@desinax/mixin": "^1.0.2",
     "@desinax/responsive-menu": "^1.1.4",
     "@desinax/typographic-grid": "^1.1.1",
     "@desinax/vertical-grid": "^1.0.3",
-    "@fortawesome/fontawesome-free": "^5.5.0",
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {

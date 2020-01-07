@@ -27,7 +27,6 @@ return [
             ],
         ],
     ],
-
     // These views are always loaded into the collection of views.
     "views" => [
         [
@@ -36,7 +35,6 @@ return [
             "data" => [
                 "class" => "large",
                 "siteLogo"      => "image/theme/web-256.png",
-                // "siteLogo"      => "image/theme/leaf_256x256.png",
                 "siteLogoAlt"   => "Webdesign logo",
             ],
         ],
@@ -47,7 +45,6 @@ return [
                 "homeLink"      => "",
                 "siteLogoText"  => "Design",
                 "siteLogoTextIcon" => "image/theme/web-55.png",
-                // "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
                 "siteLogoTextIconAlt" => "Webdesign logo",
             ],
         ],

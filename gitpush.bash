@@ -2,7 +2,7 @@
 
 # set -x #echo on
 #
-# Makes a git add . and git commit -m[Text]
+# Makes a git tag and git push
 #
 #
 
