@@ -5109,61 +5109,56 @@ h4 {
 .rm-navbar {
   font-size: 1.5em;
   line-height: 0;
-  list-style: none;
 }
-.rm-navbar ul.rm-desktop {
+.rm-desktop {
   text-align: center;
-  padding: 0;
-  margin: 0;
 }
-.rm-navbar ul.rm-desktop li {
-  display: inline-block;
-}
-.rm-navbar ul.rm-desktop li .rm-submenu-button {
-  display: none;
-}
-.rm-navbar ul.rm-desktop li a {
+.rm-desktop li a {
   padding: 1em 0.9em;
 }
-.rm-navbar ul.rm-desktop li ul {
+.rm-desktop li ul {
   background-color: white;
 }
-.rm-navbar ul.rm-small {
+.rm-button {
   font-size: 1.5em;
-  display: block;
   margin-top: -4px;
 }
-.rm-navbar ul.rm-mobile {
-  text-align: left;
+.rm-max .rm-mobile {
   background-color: #333;
+  z-index: -1;
+  padding-top: 60px;
 }
-.rm-navbar ul.rm-mobile li {
+.rm-max .rm-mobile li {
   box-shadow: none;
   border-bottom: 1px solid #666;
 }
-.rm-navbar ul.rm-mobile li:first-of-type {
+.rm-max .rm-mobile li:first-of-type {
   border-top: 1px solid #666;
 }
-.rm-navbar ul.rm-mobile li .rm-submenu-button {
+.rm-max .rm-mobile li .rm-submenu-button {
   padding: 24px;
   margin: 0;
   box-shadow: inherit;
   border-radius: 0;
+  background-color: #4f4f4f;
 }
-.rm-navbar ul.rm-mobile li .rm-submenu-button:hover {
-  background-color: #888;
-}
-.rm-navbar ul.rm-mobile li a:hover {
+.rm-max .rm-mobile li .rm-submenu-button:hover {
   background-color: #666;
 }
-.rm-navbar ul.rm-mobile .rm-show-submenu {
+.rm-max .rm-mobile li a:hover {
+  background-color: #666;
+}
+.rm-max .rm-mobile .rm-show-submenu {
   padding-left: 0;
 }
-.rm-navbar ul.rm-mobile .rm-show-submenu li:hover {
+.rm-max .rm-mobile .rm-show-submenu li:hover {
   background-color: #666;
 }
-.rm-navbar ul.rm-mobile .rm-show-submenu li a {
+.rm-max .rm-mobile .rm-show-submenu li a {
   padding-left: 1.5em;
+}
+.rm-max .rm-mobile.rm-clicked {
+  z-index: 998;
 }
 .region-header-col-3 {
   width: 15%;

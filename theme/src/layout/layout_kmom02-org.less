@@ -108,64 +108,71 @@ h4 {
 .rm-navbar {
     font-size: 1.5em;
     line-height: 0;
-}
+    list-style: none;
 
-.rm-desktop {
-    text-align: center;
-
-    li {
-        a {
-            padding: 1em 0.9em;
-        }
-        ul {
-            background-color: white;
-        }
-    }
-}
-
-.rm-button
-{
-    font-size: 1.5em;
-    margin-top: -4px;
-}
-
-.rm-max .rm-mobile {
-    background-color: @bgColorRmSmall;
-    z-index: -1;
-    padding-top: 60px;
-    li {
-        &:first-of-type {
-            border-top: 1px solid @bgColorRmSmallHover;
-        }
-        box-shadow: none;
-        border-bottom: 1px solid @bgColorRmSmallHover;
-        .rm-submenu-button {
-            padding: 24px;
+    ul {
+        &.rm-desktop
+        {
+            text-align: center;
+            padding: 0;
             margin: 0;
-            box-shadow: inherit;
-            border-radius: 0;
-            background-color: @bgColorRmSubMenuButton;
-            &:hover {
-                background-color: @bgColorRmSmallHover;
+
+            li {
+                display: inline-block;
+
+                .rm-submenu-button {
+                    display: none;
+                }
+                a {
+                    padding: 1em 0.9em;
+                }
+                ul {
+                    background-color: white;
+                }
             }
         }
-        a:hover {
-            background-color: @bgColorRmSmallHover;
+        &.rm-small
+        {
+            font-size: 1.5em;
+            display: block;
+            margin-top: -4px;
         }
-    }
-    .rm-show-submenu {
-        padding-left: 0;
-        li {
-            &:hover {
-                background-color: @bgColorRmSmallHover;
+        &.rm-mobile
+        {
+            text-align: left;
+            background-color: @bgColorRmSmall;
+
+            li {
+                &:first-of-type {
+                    border-top: 1px solid @bgColorRmSmallHover;
+                }
+                box-shadow: none;
+                border-bottom: 1px solid @bgColorRmSmallHover;
+                .rm-submenu-button {
+                    padding: 24px;
+                    margin: 0;
+                    box-shadow: inherit;
+                    border-radius: 0;
+                    &:hover {
+                        background-color: @bgColorRmSmallHover;
+                    }
+                }
+                a:hover {
+                    background-color: @bgColorRmSmallHover;
+                }
             }
-            a {
-                padding-left: 1.5em;
+            .rm-show-submenu {
+                padding-left: 0;
+                li {
+                    &:hover {
+                        background-color: @bgColorRmSmallHover;
+                    }
+                    a {
+                        padding-left: 1.5em;
+                    }
+                }
             }
         }
-    }
-    &.rm-clicked {
-        z-index: 998;
     }
 }
 
