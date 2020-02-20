@@ -5402,9 +5402,6 @@ hr::after {
 .wrap-all {
   overflow-x: hidden;
 }
-.outer-wrap {
-  padding: 0 5px 0 4px;
-}
 .outer-wrap.outer-wrap-footer {
   background-color: #333;
   color: #ccc;

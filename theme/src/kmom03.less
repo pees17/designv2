@@ -7,6 +7,7 @@
 /**
  * Import mixins.
  */
+
 @import "mixin/clearfix.less";
 
 .clearfix() {
@@ -25,14 +26,8 @@
 @import "@fortawesome/fontawesome-free/less/brands.less";
 
 /**
- * Internal self contained modules, save in directory module/.
- */
-@import "module/stylechooser.less";  // Just an example module
-
-/**
  * A responsive menu.
  */
-
 @import "@desinax/responsive-menu/less/responsive-menu.less";
 // @import "@desinax/responsive-menu/less/media-queries.less";
 
@@ -58,29 +53,20 @@
  * Import the vertical grid.
  */
 @import "@desinax/vertical-grid/less/grid.less";
-
 @import "layout/vgrid.less";
-
-// // Default grid, change to fit your requirements.
-// @columnWidth:   30;
-// @gutterWidth:   10;
-// @columns:       24;
-// @gridType:      "float"; // "flex"
 
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
- @import "layout/regions.less";     // To add style for ?regions
-// @import "layout/layout.less";
-// @import "layout/layout_kmom02.less";
+@import "layout/regions.less";     // To add style for ?regions
+
 @import "module/site-logo.less";
 @import "module/navbars.less";
 @import "module/byline.less";
 @import "module/figure.less";
 @import "module/color-scheme.less";
 
-// @import "layout/responsive.less";
 @import "layout/responsive_kmom03.less";
 
 

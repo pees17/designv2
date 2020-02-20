@@ -5412,9 +5412,6 @@ hr::after {
 .wrap-all {
   overflow-x: hidden;
 }
-.outer-wrap {
-  padding: 0 5px 0 4px;
-}
 .outer-wrap.outer-wrap-footer {
   background-color: white;
   color: #333;
@@ -5714,62 +5711,56 @@ hr::after {
 .rm-navbar {
   font-size: 1.5em;
   line-height: 0;
-  font-family: "serif";
 }
-.rm-navbar ul.rm-desktop {
+.rm-desktop {
   text-align: center;
-  margin: 0;
 }
-.rm-navbar ul.rm-desktop li {
-  display: inline-block;
+.rm-desktop li a {
+  padding: 1em 0.6em;
 }
-.rm-navbar ul.rm-desktop li .rm-submenu-button {
-  display: none;
+.rm-desktop li ul {
+  background-color: white;
 }
-.rm-navbar ul.rm-desktop li a {
-  padding: 1em 0.9em;
-}
-.rm-navbar ul.rm-desktop li ul {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-.rm-navbar ul.rm-small {
+.rm-button {
   font-size: 1.5em;
-  display: block;
-  margin-top: -10px;
+  margin-top: -4px;
 }
-.rm-navbar ul.rm-mobile {
-  text-align: left;
-  color: white;
+.rm-max .rm-mobile {
   background-color: #333;
+  z-index: -1;
+  padding-top: 60px;
 }
-.rm-navbar ul.rm-mobile li {
+.rm-max .rm-mobile li {
   box-shadow: none;
   border-bottom: 1px solid #595959;
 }
-.rm-navbar ul.rm-mobile li:first-of-type {
+.rm-max .rm-mobile li:first-of-type {
   border-top: 1px solid #595959;
 }
-.rm-navbar ul.rm-mobile li .rm-submenu-button {
-  background-color: #4d4d4d;
+.rm-max .rm-mobile li .rm-submenu-button {
   padding: 24px;
   margin: 0;
   box-shadow: inherit;
   border-radius: 0;
+  background-color: #4d4d4d;
 }
-.rm-navbar ul.rm-mobile li .rm-submenu-button:hover {
-  background-color: #737373;
-}
-.rm-navbar ul.rm-mobile li a:hover {
+.rm-max .rm-mobile li .rm-submenu-button:hover {
   background-color: #595959;
 }
-.rm-navbar ul.rm-mobile .rm-show-submenu {
+.rm-max .rm-mobile li a:hover {
+  background-color: #595959;
+}
+.rm-max .rm-mobile .rm-show-submenu {
   padding-left: 0;
 }
-.rm-navbar ul.rm-mobile .rm-show-submenu li:hover {
+.rm-max .rm-mobile .rm-show-submenu li:hover {
   background-color: #595959;
 }
-.rm-navbar ul.rm-mobile .rm-show-submenu li a {
+.rm-max .rm-mobile .rm-show-submenu li a {
   padding-left: 1.5em;
+}
+.rm-max .rm-mobile.rm-clicked {
+  z-index: 998;
 }
 /**
  * Byline.
