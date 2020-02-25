@@ -5705,6 +5705,7 @@ hr::after {
 }
 .rm-max .rm-mobile {
   background-color: #333;
+  color: white;
   z-index: -1;
   padding-top: 60px;
 }
@@ -5878,6 +5879,9 @@ table.scheme.di td.color5 {
   .site-logo-text {
     visibility: hidden;
   }
+  .site-logo-text-icon {
+    visibility: visible;
+  }
 }
 @media screen and (max-width: 1400px) {
   .rm-navbar ul.rm-desktop li a {
@@ -5971,7 +5975,7 @@ table.scheme.di td.color5 {
     display: none;
   }
 }
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 951px) {
   .rm-navbar ul.rm-small {
     display: none;
   }
