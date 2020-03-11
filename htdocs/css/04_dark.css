@@ -5706,6 +5706,7 @@ hr::after {
 .rm-navbar {
   font-size: 1.5em;
   line-height: 0;
+  font-family: Verdana, Geneva, sans-serif;
 }
 .rm-desktop {
   text-align: center;
@@ -5714,11 +5715,11 @@ hr::after {
   padding: 1em 0.6em;
 }
 .rm-desktop li ul {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .rm-button {
   font-size: 1.5em;
-  margin-top: -4px;
+  margin-top: -6px;
 }
 .rm-max .rm-mobile {
   background-color: black;
