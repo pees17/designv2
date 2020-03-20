@@ -24,6 +24,7 @@ return [
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
+                "js/menu-add-transition.js"
             ],
         ],
     ],

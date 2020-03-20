@@ -30,8 +30,8 @@
 .rm-max .rm-mobile {
     background-color: @bgColorRmSmall;
     color: @colorRmSmall;
-    z-index: -1;
     padding-top: 60px;
+    transition: none;
     li {
         &:first-of-type {
             border-top: 1px solid @bgColorRmSmallHover;
@@ -62,8 +62,5 @@
                 padding-left: 1.5em;
             }
         }
-    }
-    &.rm-clicked {
-        z-index: 998;
     }
 }

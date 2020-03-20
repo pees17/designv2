@@ -5717,8 +5717,8 @@ hr::after {
 .rm-max .rm-mobile {
   background-color: #333;
   color: white;
-  z-index: -1;
   padding-top: 60px;
+  transition: none;
 }
 .rm-max .rm-mobile li {
   box-shadow: none;
@@ -5748,9 +5748,6 @@ hr::after {
 }
 .rm-max .rm-mobile .rm-show-submenu li a {
   padding-left: 1.5em;
-}
-.rm-max .rm-mobile.rm-clicked {
-  z-index: 998;
 }
 /**
  * Byline.

@@ -4,7 +4,7 @@ views:
         region: flash
         template: anax/v2/image/default
         data:
-            src: "image/maldiverna.jpg?width=1200&height=140&crop-to-fit"
+            src: "image/Maldiverna.jpg?width=1200&height=140&crop-to-fit"
             alt: "Kuredo island, Maldives"
 
 author: pees17
