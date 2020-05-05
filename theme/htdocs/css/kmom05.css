@@ -6016,6 +6016,42 @@ table.scheme.di td.color4 {
 table.scheme.di td.color5 {
   background-color: #238a22;
 }
+table.scheme.toxic td.color1 {
+  background-color: #36d888;
+}
+table.scheme.toxic td.color2 {
+  background-color: #ffffff;
+}
+table.scheme.toxic td.color3 {
+  background-color: #dadbde;
+}
+table.scheme.toxic td.color4 {
+  background-color: #5e5d5b;
+}
+table.scheme.toxic td.color5 {
+  background-color: #1b1b1b;
+}
+table.scheme.ka-web td.color1 {
+  background-color: #69c0b1;
+}
+table.scheme.ka-web td.color2 {
+  background-color: #c464a3;
+}
+table.scheme.ka-web td.color3 {
+  background-color: #542884;
+}
+table.scheme.ka-web td.color4 {
+  background-color: #fed402;
+}
+table.scheme.ka-web td.color5 {
+  background-color: #ffffff;
+}
+table.scheme.ka-web td.color6 {
+  background-color: #f7f7f7;
+}
+table.scheme.ka-web td.color7 {
+  background-color: #222222;
+}
 /**
  * Layout for responsive style through media queries.
  */

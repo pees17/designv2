@@ -6,7 +6,7 @@ Min strategi för denna analys var att först definiera hur jag tolkar "aktuella
 
 Definition av aktuella trender
 ------------------------------
-Jag sökte på "web design trends" på nätet och valde 4 artiklar som ansåg sig kunna definiera vilka det är. Från dessa 4 artiklar valde jag sedan de trender som togs upp av minst två av artiklarna.
+Jag sökte på "web design trends 2019" på nätet och valde 4 artiklar som ansåg sig kunna definiera vilka det är. Från dessa 4 artiklar valde jag sedan de trender som togs upp av minst två av artiklarna.
 
 Följande artiklar valdes ut:
 
@@ -17,8 +17,8 @@ Följande artiklar valdes ut:
 
 Efter att ha studerat dessa artiklar så landade jag i följande trender som nämndes i minst två av artiklarna.
 
-- **Asymetrisk layout** med element som inte håller sig till gridden, och överlappande element. Naturliga, organiska former snarare än raka linjer och fyrkanter.
-- **Utvecklad typografi** gärna med lite ålderdomlig stil, mera serifer i stället för sans serif. Mera blandade fonter och egenutvecklade fonter som sticker ut.
+- **Asymmetrisk layout** med element som inte håller sig till gridden, och överlappande element. Naturliga, organiska former snarare än raka linjer och fyrkanter.
+- **Utvecklad typografi** gärna med lite ålderdomlig stil, mera seriffer i stället för sans seriff. Mera blandade fonter och egenutvecklade fonter som sticker ut.
 - **Monokromatiska färgscheman**, gärna med en accentfärg tillagd.
 - **Minimalistisk design** med mycket whitespace.
 - **Meningsfulla animeringar** gärna med hjälp av CSS3.
@@ -33,7 +33,7 @@ Följande 3 webbplatser har analyserats:
 
 1. [Toxic](https://www.toxic.se/)
 2. [KA Webbyrå](https://www.kawebb.se/)
-3. [Dazy Digital](https://dazy.se/)
+3. [Dazy](https://dazy.se/)
 
 Metod
 -----------------------
@@ -47,17 +47,47 @@ Här är resultatet av utvärderingen för respektive webbplats.
 
 ###1. Toxic
 
-#####Allmänt
-På första sidan möts man av en stor bild med ett antal medarbetare som rullar sakta över skärmen. Innehållsmässigt så är webbplatsen traditionelt uppbyggd för ett företag som säljer tjänster. Det finns en presentation av företaget och dess tjänster, länkar till referenser, nyheter, kontaktsida, en karriärsida och en rätt omfattande blogg.
+[FIGURE src="image/toxic.jpg?w=800" caption="Skärmdump webbyrån Toxic"]
 
-Webbplatsen är luftig med mycket "whitespace". Hela skärmbredden utnyttjas och en snabb test i "inspect elements" visar att webbplatsen är väl mobilanpassad vad gäller responsiviteten. Vid en skärmbredd på 300 pixlar fungerar allt som det ska och ser bra ut.
+#####Allmänt
+På första sidan möts man av en stor bild från byråns kontor med ett antal medarbetare. Innehållsmässigt så är webbplatsen traditionellt uppbyggd för ett företag som säljer tjänster. Det finns en presentation av företaget och dess tjänster, länkar till referenser, nyheter, kontaktsida, en karriärsida och en rätt omfattande blogg.
 
 #####Design
-Webbplatsen är symetrisk och med en tydlig grid på oftast 2-3 kolumner. Footer och header är samma på alla sidor.
-Webbplatsen har många bilder och illustrationer. Den känns väl genomtänkt och enhetlig. Bara två färger, en lite blekt grön som också är färgen på loggan och en blå som finns i lite olika nyanser, samt olika nyanser av grått.
+Webbplatsen är symmetrisk och med en tydlig grid på oftast 2-3 kolumner. Footer och header är samma på alla sidor. Headern är "sticky" och har en logga till vänster, en horisontell navbar, samt en hamburger meny till höger som är synlig oberoende av fönsterbredden. Webbplatsen har många bilder och illustrationer. Den känns väl genomtänkt och enhetlig. Färgschemat är monokromatiskt med bara en blekt grön färg samt svart, vitt och olika nyanser av grått.
 
 Färgpalett för webbplatsen:
-<table class="scheme skandia">
+<table class="scheme toxic">
+<tr>
+<td class="color1">
+<td class="color2">
+<td class="color3">
+<td class="color4">
+<td class="color5">
+</tr>
+</table>
+
+Webbplatsen är luftig med mycket "whitespace". Hela skärmbredden utnyttjas och en snabb test i "inspect elements" visar att webbplatsen är väl mobilanpassad vad gäller responsivitet. Vid en skärmbredd på 300 pixlar fungerar allt som det ska och ser bra ut.
+
+Vad gäller hastighet i Google PageSpeed så är det väl godkänt på dator men hamnar i gult område på mobil (score 75).
+
+När det gäller de aktuella webdesigntrenderna så är det främst "Monokromatiska färgscheman" som man har tillämpat. Även "Minimalistisk design" till viss del (mycket whitespace) och även "Meningsfulla animeringar". Funktionellt så har man kört på "Mobile first", men man skulle behöva jobba lite på att snabba upp webbplatsen för mobiler.
+
+Trenderna "Asymmetrisk layout", "Utvecklad typografi" samt "Mera gradienter" ser jag dock inga spår av.
+
+###2. KA Webbyrå
+
+[FIGURE src="image/ka-web.jpg?w=800" caption="Skärmdump KA Webbyrå"]
+
+#####Allmänt
+På första sidan möts man av ett stort blåaktigt fält med en transient som långsamt rör sig över sidan från vänster till höger, en laptop där skärmen fylls på med text samt en raket som skakar när man hovrar över den. Innehållsmässigt så är webbplatsen traditionellt uppbyggd för ett företag som säljer tjänster. Det finns en presentation av företaget och dess tjänster, länkar till referenser, nyheter, kontaktsida, en karriärsida och en rätt omfattande blogg. Väldigt likt det upplägg som Toxic har.
+
+#####Design
+Webbplatsen är symmetrisk och med en tydlig grid på oftast 1-3 kolumner. Footer och header är samma på alla sidor. Headern är "sticky" och har en logga till vänster, en horisontell navbar, samt en hamburger meny till höger som är synlig oberoende av fönsterbredden. Webbplatsen har många bilder och illustrationer samt mycket animering. Det händer ofta något när man hovrar över objekt vilket ger liv och rörelse på siten.
+
+Färgschemat kan närmast beskrivas som analogt, samt med den gula färgen som accentfärg.
+
+Färgpalett för webbplatsen:
+<table class="scheme ka-web">
 <tr>
 <td class="color1">
 <td class="color2">
@@ -65,65 +95,55 @@ Färgpalett för webbplatsen:
 <td class="color4">
 <td class="color5">
 <td class="color6">
+<td class="color7">
 </tr>
 </table>
 
-Jag tycker att designen gynnar webbplatsens syfte väldigt väl.  Den ger ett sobert och professionellt intryck och man får känslan av att detta är ett företag som tar datasäkerhet på allvar.  
+Även om webbplatsen har rätt mycket text så är den lätta att hitta på och att läsa, mycket beroende på att fonten är stor och även radavståndet. Hela skärmbredden utnyttjas, förutom när det är ren text som centreras till 900 pixlars bredd. En snabb test i "inspect elements" visar att webbplatsen är väl mobilanpassad vad gäller responsivitet. Vid en skärmbredd på 300 pixlar fungerar allt som det ska och ser bra ut.
 
-De designprinciper som kännetecknar denna webbplats är:
+Vad gäller hastighet i Google PageSpeed så är det väl godkänt på dator men hamnar i gult område på mobil (score 69). Lite sämre än Toxic alltså.
 
-+ Balans: Headern har en grön större logga till vänster som balanseras av en stor, grön "By Online" knapp till höger. Innehållet är också väl balanserat. Det är särskilt tydligt för bilderna som omväxlande är vänsterjusterade med en textmassa i samma storlek som bilden till höger, och högerjusterade med en textmassa i samma storlek som bilden till vänster.
-+ Grid: Används genomgående men ändrar antalet kolumner ofta. Innehållet växlar mellan 1-3 kolumner och footern har 5 kolumner.
+När det gäller de aktuella webdesigntrenderna så är det främst "Meningsfulla animeringar" som utmärker siten. Det är mycket som rör sig, ändrar färg och storlek när man hovrar. "Mera gradienter" förekommer till viss del och funktionellt så har man kört på "Mobile first", men man skulle behöva jobba lite på att snabba upp webbplatsen för mobiler.
 
-Designprinciperna används genomgående på alla sidorna vilket bidrar till det enhetliga intrycket av webbplatsen.
+Trenderna "Asymmetrisk layout", "Utvecklad typografi", "Monokromatiska färgscheman" samt "Minimalistisk design" ser jag dock inga spår av.
 
-###2. Zound Industries
+###3. Dazy
 
-#####Mål och syfte
-Zound Industries utvecklar och säljer egna produkter, samt marknadsför och säljer produkter från samarbetspartners, inom ljudåtergivning. Främst hörlurar och högtalare. Webbplatsens syfte är att informera om företaget och marknadsföra produkterna. Dock ej support eller försäljning av produkterna. Där hänvisar man till produkternas egna webbplatser.
+[FIGURE src="image/dazy.jpg?w=800" caption="Skärmdump Dazy"]
 
-#####Design
-Webbplatsen har många tunga bilder och videos, vilket gör den väldigt seg att bläddra runt i, även på en PC men bra bredband.
-
-Det märks att fokus är på marknadsföring, man får känslan av att vara på en reklamsida. Det är dock väldigt uppstyrt och all information finns i rutor, som alla har samma bredd men olika höjd. Färgmässigt är det väldigt enhetligt, med bara en turkos färg som också är loggans färg, samt grått.
-
-Det är svårt att hitta på sidorna tycker jag. Det finns en navbar i headern, men den har bara fem olika rubriker och inga underrubriker. Man får helt enkelt bläddra sig igenom sidorna och leta efter den information man är ute efter. Footer saknas helt.
-
-Jag tycker inte att designen gynnar syftet med webbplatsen, inte för mig i alla fall. Jag blir mest irriterad. Till råga på allt har man på första sidan lagt en väldigt stor och mörk bild och på denna lagt svart text som är svår att läsa.  
-
-De designprinciper som kännetecknar denna webbplats är:
-
-+ Färg: Man har valt ett monokromt färgschema och kör stenhårt på det. Den turkosa färgen i loggan återkommer i alla informationsrutor, alla knappar och när man hoovrar över vissa element.
-+ Grid: Någon sorts enkel grid verkar användas, eftersom sidorna är delade i två delar vertikalt, på mitten.
-+ Djup: Alla inforutor har en liten skuggning som gör att de ser ut att vara upphöjda. Det förstärks när man klickar på dom också för då "hoppar dom upp" och blir större, samtidigt som dom lägger sig mitt i bilden och den bakomvarande sidan mörkas ned.
-
-Designprinciperna används genomgående på alla sidorna.
-
-###3. Automile
-
-#####Mål och syfte
-Automile utvecklar produkter och tjänster för spårning av fordon. Webbplatsens syfte är att informera om företaget och dess produkter, att sälja produkterna, samt att ge produktsupport.
+#####Allmänt
+På första sidan möts man av en svart text på vit bakgrund. Scrollar man nedåt så kommer att antal case som företaget har jobbat med.
+Innehållsmässigt så är webbplatsen traditionellt uppbyggd för ett företag som säljer tjänster. Det finns en presentation av företaget och dess tjänster, länkar till referenser, nyheter, kontaktsida, en karriärsida och en rätt omfattande blogg (kallas "Läsvärt"). Väldigt likt det upplägg som både Toxic och KA Webbyrå har.
 
 #####Design
-Webbplatsen har många bilder och illustrationer. Den känns väl genomtänkt och enhetlig. Det är inte så mycket information, och den är lätt att hitta. Bara två färger, en turkos som finns i lite olika nyanser och är huvudfärgen för sidan, en grön färg som används lite mindre, samt olika nyanser av svart/grått.
-Det finns mycket småsaker som ger sidan liv, t.ex. att saker rör på sig lite när man laddar en sida, eller hoovrar över något.
+Webbplatsen är symmetrisk och med en tydlig grid på oftast 1-3 kolumner. Footer och header är samma på alla sidor. Till skillnad från de andra två så är headern dock inte "sticky". Navbaren försvinner uppåt så fort man börjar scrolla ned, och efter ytterligare lite scroll ned så försvinner loggan ut till vänster. För att få tillbaka navbaren och loggan så räcker det att scrolla upp en liten aning, även om man är långt ner på sidan. Ett bra sätt att lösa det hela enligt min mening.
 
-Jag tycker att designen gynnar webbplatsens syfte väldigt väl.  Den ger ett professionellt intryck och bra information om produkterna. Den är dessutom lätt att använda och trevlig att titta på.  
+Dazy har också en hamburger meny till höger, men till skillnad från de andra två så syns den inte förrän man har en fönsterbredd på 730 pixlar. Webbplatsen har många bilder och illustrationer samt en del  animering, dock ej så mycket som KA Webbyrå.
 
-De designprinciper som kännetecknar denna webbplats är:
+Färgschemat kan närmast beskrivas som akromatiskt. Svart, vitt samt några olika nyanser av grått. Det finns dock färger, framför allt där man beskriver sina olika case, men då verkar varje case ha sitt eget färgschema så det blir lite svåranalyserbart.
 
-+ Rörelse: Många av bilderna på sidan är skärmbilder på en dator eller mobil som visar en applikation som hör till produkterna. När vissa av dessa bilder blir synlig så ser man en kort film i skärmen som visar hur det kan se ut. Skärmbilderna rör sig också en kort bit i sidled när de kommer i bild. En annan sak är att alla sidor innehåller en stor knapp med "Vill du vete mer?". När sidan läses in så vickar denna knapp på sig några gånger innan den stannar. En av sidorna innehåller en bild med olika typer av fordon som man kan tänka sig att spåra. Denna bild rullar sakta över skärmen så att ett fordon som försvinner till vänster sedan dyker upp igen lite senare från höger.
-+ Balans: Innehållet är väl balanserat. Ofta med omväxlande bild till vänster och text till höger, och bild till höger och text till vänster.
+Hela skärmbredden utnyttjas. En snabb test i "inspect elements" visar att webbplatsen är väl mobilanpassad vad gäller responsivitet. Vid en skärmbredd på 300 pixlar fungerar allt som det ska och ser bra ut.
 
-Designprinciperna används genomgående på alla sidorna.
+Vad gäller hastighet i Google PageSpeed så är det väl godkänt på dator men hamnar i gult område på mobil (score 63). Klart sämst av de tre.
+
+När det gäller de aktuella webdesigntrenderna så är det främst "Meningsfulla animeringar" som utmärker siten. Kanske också "Monokromatiska färgscheman", även om färgschemat snarare är akromatiskt. Precis som de andra två så fungerar sidan bra på mobiler rent funktionellt, men man behöver jobba en del på att snabba upp webbplatsen för mobiler.
+
+Övriga trender är det svårt att se några spår utav.
 
 Analys
 -----------------------
-Det var svårt (i alla fall för mig) att identifiera om en webbplats använt några designprinciper. Bara för att en sida har använt skuggning på ett par element så betyder ju inte det att designprincipen "djup" har använts tycker jag. Jag har bara lyft fram de principer som jag tycker ger stort avtryck på sidan.
+Det var påfallande få av de aktuella trenderna som mina tre webbyråer hade tagit till sig. **Meningsfulla animeringar** var nog den mest anammade. Alla tre använde det i olika grad. **Mobile first** var också väl använt av alla tre rent funktionellt, med här behöver man jobba med att snabba upp sidorna.
 
-Mina tre webbplatser kändes rätt lika i designen, speciellt Yubico och Automile. Zound Industries avvek lite med sina informationsrutor med bilder och text. De mest förekommande deignprinciperna var "grid" och "balans".
+Av **Asymmetrisk layout** fanns inga spår alls hos någon av byråerna. Tvärt om så används tydliga griddar och balans. Inte heller **Utvecklad typografi** fanns hos någon, utan enbart sans seriffer som inte sticker ut på något sätt. Inte heller **Mera gradienter** används, förutom något lite av KA Webbyrå.
 
-Färg var också en designprincip som alla sidor uppvisade, även om jag inte framhöll det som en av de viktigaste principerna för två av sidorna. Intressant att se hur lika färgvalen var på de tre sidorna.
+Om jag i stället bortser från artiklarna som skulle definiera trenderna och i stället tittar på vilka trender jag ser utgående från mina tre siter så får jag följande bild:
+
+- **Färg:** Alla tre har olika men väl genomtänkta färgscheman, som används på ett konsekvent och bra sätt.
+- **Animeringar:** Ja det används mycket, och på ett bra sätt.
+- **Bilder:** Mycket bilder och illustrationer hos alla.
+- **Grid:** Används genomgående. Dock så växlar man gärna hur många kolumner som används.
+
+En annan iakttagelse är att alla tre siterna känns väldigt lika varandra. Kanske sneglar byråerna på varandra? Eller beror det på att alla är gjorda i Word Perfect? (Om dom nu är det, vilket jag inte kan bedöma).
 
 Referenser
 -----------------------
@@ -131,4 +151,4 @@ Referenser
 
 Övrigt
 -----------------------
-Denna rapport är framtagen av Per-Olof Eriksson, som en del av kursmoment 6 i kursen [design (v2)](https://dbwebb.se/kurser/design-v2).
+Denna rapport är framtagen av Peo Malm, som en del av kursmoment 07/10 i kursen [design (v2)](https://dbwebb.se/kurser/design-v2).
